@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Open+Sans+Condensed:300,300italic,700|Cousine|Lato|Noto+Serif" type="text/css"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMinYMin" viewBox="0 0 705 345" width="705" height="345"><rect width="705" height="345" fill="#ffffff"/><rect transform="translate(1, 1)" width="703" height="343" class="background" fill="#ffffff" fill-opacity="1.0" style="shape-rendering: crispEdges"/><g class="chart-body" pointer-events="all" transform="translate(15, 60)"><rect width="675" height="270" fill-opacity="0" style="shape-rendering: crispEdges"/><g style="text-anchor:end;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(81, 23.875)"><text y="13">Prospects</text></g><g class="series series-0"><polygon fill="#475999" class="tooltip-trigger funnel" points="86.0 0 617.0 0 548.7216290420988 63.75 154.27837095790116 63.75"/></g><g style="text-anchor:start;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(622, 23.875)"><text y="13">100.00%</text></g><g style="text-anchor:end;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(81, 90.175)"><text y="13">Trials</text></g><g class="series series-1"><polygon fill="#E59043" class="tooltip-trigger funnel" points="154.27837095790116 66.3 548.7216290420988 66.3 491.7824893227578 130.05 211.21751067724222 130.05"/></g><g style="text-anchor:start;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(622, 90.175)"><text y="13">74.28%</text></g><g style="text-anchor:end;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(81, 156.475)"><text y="13">Subscriptions</text></g><g class="series series-2"><polygon fill="#9156B5" class="tooltip-trigger funnel" points="211.21751067724222 132.6 491.7824893227578 132.6 418.4014643075046 196.35 284.59853569249543 196.35"/></g><g style="text-anchor:start;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(622, 156.475)"><text y="13">52.84%</text></g><g style="text-anchor:end;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(81, 222.77499999999998)"><text y="13">Upgrades</text></g><g class="series series-3"><polygon fill="#E5CC49" class="tooltip-trigger funnel" points="284.59853569249543 198.89999999999998 418.4014643075046 198.89999999999998 418.4014643075046 262.65 284.59853569249543 262.65"/></g><g style="text-anchor:start;font-family:Lato;font-size:13px;font-weight:400;fill:#687299" transform="translate(622, 222.77499999999998)"><text y="13">25.20%</text></g></g><g transform="translate(1, 1)"><g transform="translate(329.0, 11.25)" class="drag-handle-icon hover" fill="rgb(0, 9, 46)" opacity="0.3" display="none"><svg width="45" height="22.5" viewBox="0 0 38 6" version="1.1" id="dwafsxxhyk">
+    <g stroke-width="1" fill-rule="evenodd">
+        <rect x="0" y="0" width="2" height="2"/>
+        <rect x="4" y="0" width="2" height="2"/>
+        <rect x="0" y="4" width="2" height="2"/>
+        <rect x="4" y="4" width="2" height="2"/>
+        <rect x="8" y="0" width="2" height="2"/>
+        <rect x="12" y="0" width="2" height="2"/>
+        <rect x="8" y="4" width="2" height="2"/>
+        <rect x="12" y="4" width="2" height="2"/>
+        <rect x="16" y="0" width="2" height="2"/>
+        <rect x="16" y="4" width="2" height="2"/>
+        <rect x="20" y="0" width="2" height="2"/>
+        <rect x="24" y="0" width="2" height="2"/>
+        <rect x="20" y="4" width="2" height="2"/>
+        <rect x="24" y="4" width="2" height="2"/>
+        <rect x="28" y="0" width="2" height="2"/>
+        <rect x="32" y="0" width="2" height="2"/>
+        <rect x="28" y="4" width="2" height="2"/>
+        <rect x="32" y="4" width="2" height="2"/>
+        <rect x="36" y="0" width="2" height="2"/>
+        <rect x="36" y="4" width="2" height="2"/>
+    </g>
+</svg></g><g class="title drag-handle" pointer-events="all"><rect width="703" height="45" class="title-background" fill-opacity="0" stroke-dasharray="0 748 703 45"/><g style="text-anchor:start;font-family:Lato;font-size:15px;font-weight:500;fill:#00092E" transform="translate(15, 0)"><text y="28.0">Stages</text></g></g></g><g transform="translate(674, 1)" class="settings-button" pointer-events="all" display="none"><rect width="30" height="45" fill="#000000" fill-opacity="0.0"/><circle cx="15.0" cy="15.0" r="2.5" fill="#00092e" fill-opacity="0.3"/><circle cx="15.0" cy="22.5" r="2.5" fill="#00092e" fill-opacity="0.3"/><circle cx="15.0" cy="30.0" r="2.5" fill="#00092e" fill-opacity="0.3"/></g><g transform="translate(639.0, 1)" class="chart-comments-button" pointer-events="all" display="none"><rect width="36.0" height="45" fill="#000000" fill-opacity="0.0"/><g transform="translate(8, 10.799999999999999)"><svg width="26.0" height="23.400000000000002" viewBox="0 0 20 18" fill="none" id="hfsuojbhoe">
+<path class="chart-comment-bubble-path" d="M0 4C0 1.79086 1.79086 0 4 0H16C18.2091 0 20 1.79086 20 4V11C20 13.2091 18.2091 15 16 15H10L4 18V15C1.79086 15 0 13.2091 0 11V4Z" fill="#C1C1C1"/>
+<text fill="white" xml:space="preserve" style="white-space: pre; text-anchor: middle" font-family="Open Sans" font-size="11" font-weight="600" letter-spacing="-0.3px">
+<tspan class="chart-comment-bubble-text" x="11" y="11.2673">
+</tspan></text>
+</svg></g></g></svg>
