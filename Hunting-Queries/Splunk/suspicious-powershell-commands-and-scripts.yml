@@ -1,0 +1,62 @@
+
+name: Active Directory Reset password
+id: fc0edc96-ff2b-48b0-9f6f-63da6783fd63
+version: 1
+date: '2020-12-08'
+author: Philip Royer, Splunk
+type: Response
+description: This playbook resets the password of a potentially compromised user account. First, an analyst is prompted to evaluate the situation and choose whether to reset the account. If they approve, a strong password is generated and the password is reset.
+playbook: activedirectory_reset_password
+how_to_implement: This playbook works on artifacts with artifact:*.cef.compromisedUserName which can be created as shown in the playbook "recorded_future_handle_leaked_credentials" - The prompt is hard-coded to use "admin" as the user, so change it to the correct user or role
+references: []
+app_list:
+- "LDAP"
+tags:
+  platform_tags: []
+  playbook_fields:
+  - compromisedUserName
+  product:
+  - Splunk SOAR
+
+
+index=sysmon AND ("PowerShell.exe" OR "cmd.exe" OR "psexec.exe")
+
+    AND ( 
+        ```capturer malicious PowerShell/CMD modules (non-built-in cmdlet)``` 
+        CommandLine IN ("*Add-Exfiltration*", "*Add-Persistence*", "*Add-RegBackdoor*", "*Add-ScrnSaveBackdoor*", "*Check-VM*", "*Do-Exfiltration*", "*Enabled-DuplicateToken*", "*Exploit-Jboss*", "*Find-Fruit*", "*Find-GPOLocation*", "*Find-TrustedDocuments*", "*Get-ApplicationHost*", "*Get-ChromeDump*", "*Get-ClipboardContents*", "*Get-FoxDump*", "*Get-GPPPassword*", "*Get-IndexedItem*", "*Get-Keystrokes*", "*LSASecret*", "*Get-PassHash*", "*Get-RegAlwaysInstallElevated*", "*Get-RegAutoLogon*", "*Get-RickAstley*", "*Get-Screenshot*", "*Get-SecurityPackages*", "*Get-ServiceFilePermission*", "*Get-ServicePermission*", "*Get-ServiceUnquoted*", "*Get-SiteListPassword*", "*Get-System*", "*Get-TimedScreenshot*", "*Get-UnattendedInstallFile*", "*Get-Unconstrained*", "*Get-VaultCredential*", "*Get-VulnAutoRun*", "*Get-VulnSchTask*", "*Gupt-Backdoor*", "*HTTP-Login*", "*Install-SSP*", "*Install-ServiceBinary*", "*Invoke-ACLScanner*", "*Invoke-ADSBackdoor*", "*Invoke-ARPScan*", "*Invoke-AllChecks*", "*Invoke-BackdoorLNK*", "*Invoke-BypassUAC*", "*Invoke-CredentialInjection*", "*Invoke-DCSync*", "*Invoke-DllInjection*", "*Invoke-DowngradeAccount*", "*Invoke-EgressCheck*", "*Invoke-Inveigh*", "*Invoke-InveighRelay*", "*Invoke-Mimikittenz*", "*Invoke-NetRipper*", "*Invoke-NinjaCopy*", "*Invoke-PSInject*", "*Invoke-Paranoia*", "*Invoke-PortScan*", "*Invoke-PoshRat*", "*Invoke-PostExfil*", "*Invoke-PowerDump*", "*Invoke-PowerShellTCP*", "*Invoke-PsExec*", "*Invoke-PsUaCme*", "*Invoke-ReflectivePEInjection*", "*Invoke-ReverseDNSLookup*", "*Invoke-RunAs*", "*Invoke-SMBScanner*", "*Invoke-SSHCommand*", "*Invoke-Service*", "*Invoke-Shellcode*", "*Invoke-Tater*", "*Invoke-ThunderStruck*", "*Invoke-Token*", "*Invoke-UserHunter*", "*Invoke-VoiceTroll*", "*Invoke-WScriptBypassUAC*", "*Invoke-WinEnum*", "*MailRaider*", "*New-HoneyHash*", "*Out-Minidump*", "*Port-Scan*", "*PowerBreach*", "*PowerUp*", "*PowerView*", "*Remove-Update*", "*Set-MacAttribute*", "*Set-Wallpaper*", "*Show-TargetScreen*", "*Start-CaptureServer*", "*VolumeShadowCopyTools*", "*NEEEEWWW*", "*ComputerProperty*", "*UserProperty*", "*CachedRDPConnection*", "*Install-Service*", "*remoteps*", "*Uninstall-Windows*", "*AmsiBypass*", "*nishang*", "*Invoke-Interceptor*", "*EXEonRemote*", "*NetworkRelay*", "*PowerShelludp*", "*PowerShellIcmp*", "*CreateShortcut*", "*copy-vss*", "*invoke-dll*", "*invoke-mass*", "*out-shortcut*", "*Invoke-ShellCommand*", "*Invoke-Kerberoast*", "*Invoke-Mimikatz*", "*Invoke-MassMimikatz*", "*Invoke-ShareFinder*", "*Invoke-BloodHound*", "*dsquery*", "*dsget*", "*PSBruteZip*", "*WinRM_Brute*", "*PSpanner*", "*Convert-StringToHash*", "*Convert-SID*", "*Test-BruteForceZipPassword*", "*Test-BruteForceCredentials*", "*Get-LdapInfo*", "*Get-NetworkShareInfo*", "*Test-PrivEsc*", "*Get-InitialEnum*", "*Start-SimpleHTTPServer*", "*Invoke-PortScan*", "*Invoke-PingSweep*", "*Invoke-UseCreds*", "*Invoke-FodHelperBypass*", "*Get-ClearTextPassword*", "*Invoke-AzureEnum*", "*Invoke-AzurePasswordSpray*", "*Test-KerberosDoubleHop*", "*Invoke-DccwUACBypass*", "*Enable-RDP*", "*Test-SQLCredential*", "*Test-FTPCredential*", "*JuicyPotato*", "*PSRemotingmimikatz*", "*Get-SQLServerLink*", "*Get-SQLServerLinkCrawl*", "*python*", "*plink*")
+
+         ```capturer malicious PowerShell/CMD commands lines (built-in cmdlet)``` 
+        OR (
+            CommandLine IN ("*IEX*", "*IWR*", "*New-Partition*", "*Stop-Process*", "*Invoke-SPLPowerShellAuditLogging*", "*ConvertFrom-SecureString*", "*ConvertTo-SecureString*", "*Kerberos.*policy*", "*Kerberos.*ticket*", "*invoke-*hunter*", "*Set-ExecutionPolicy*", "*Reg Add*", "*Set-MpPreference*", "*New-NetFirewallRule*", "*klist*", "*Netsh*", "*Advfirewall*", "*icacls*", "*certutil*", "*net use*", "*ssh*")
+        )
+
+        ```capture malicious PowerShell/CMD keywords``` 
+        OR ( 
+            CommandLine ("*hidden*", "*Runas*", "*PSCredential*", "*Base64*", "*Bypass*", "*Unrestricted*", "*password*", "*net*", "*cpassword*", "*UseLogonCredential*", "*empire*", "*Get-LocalUser*", "*TrustAllCertsPolicy*", "*lsadump*", "*Net.Sockets.TcpClient*", "*Invoke-Command*", "*Enter-PSSession*", "*Set-ItemProperty*", "*Get-Credentials*")
+        )
+
+         ```capture malicious PowerShell/CMD parameters: general``` 
+        ```-C and -Command are ommited because are used frequently``` 
+        OR ( 
+            CommandLine IN ("* -ScriptBlock *", "* -W *", "* -WindowStyle *", "* -nop *", "* -Verb *", "* -Credential *", "* -AsSecureString *", "* –ExecutionPolicy *", "* -exec *", "* -ep *", "* -DisableRealtimeMonitoring *", "* -noexit *")
+        )
+
+         ```capture malicious PowerShell/CMD parameters: encoding commands``` 
+        OR ( 
+            CommandLine IN ("*[System.Convert]::FromBase64String*", "* -encodedcommand *", "* -encodedco *", "* -encodedc *" " -encoded *", "* -enco *", "* -enc *", "* -ec *", "* -en *", "* -e *", "*[System.Runtime.InteropServices.Marshal]*", "*$Marshal::SecureStringToBSTR*", "*$Marshal::PtrToStringAuto*", "*$Marshal::ZeroFreeBSTR*", "*[Security.Cryptography.RNGCryptoServiceProvider]*")
+        )
+
+         ```capture PowerShell calls which bypass powershell.exe execution``` 
+        OR ( 
+            CommandLine = "*System.Management*DLLs*"
+        )
+
+         ```capture malicious scripts and tools 
+        OR ( 
+            OriginalFileName IN ("*arp.exe*", "*at.exe*", "*bcdedit.exe*", "*bcp.exe*", "*chcp.exe*", "*cmd.exe*", "*cscript.exe*", "*csvde*", "*dsquery.exe*", "*ipconfig.exe*", "*mimikatz.exe*", "*nbtstat.exe*", "*nc.exe*", "*netcat.exe*", "*netstat.exe*", "*nmap*", "*nslookup.exe*", "*netsh*", "*OSQL.exe*", "*ping.exe*", "*powershell.exe*", "*powercat.ps1*", "*psexec.exe*", "*psexecsvc.exe*", "*psLoggedOn.exe*", "*procdump.exe*", "*qprocess.exe*", "*query.exe*", "*rar.exe*", "*reg.exe*", "*route.exe*", "*runas.exe*", "*rundll32*", "*schtasks.exe*", "*sethc.exe*", "*sqlcmd.exe*", "*sc.exe*", "*ssh.exe*", "*sysprep.exe*", "*systeminfo.exe*", "*net.exe*", "*reg.exe*", "*tasklist.exe*", "*tracert.exe*", "*vssadmin.exe*", "*whoami.exe*", "*winrar.exe*", "*wscript.exe*", "*winrm.*", "*winrs.*", "*wmic.exe*", "*wsmprovhost.exe*", "*wusa.exe*") 
+        ``` 
+    )
+
+| stats values(_time) as Time, values(OriginalFileName) as OriginalFileName, values(CommandLine) as CommandLine, values(EventCode) as EventCode, count by ComputerName, User 
+| table Time, ComputerName, User, OriginalFileName, EventCode, CommandLine, count
+| sort - count
