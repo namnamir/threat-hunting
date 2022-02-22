@@ -1,4 +1,57 @@
 - 7Zip Commandline To SMB Share Path
+- Abnormally High Number Of Cloud Infrastructure API Calls
+- Abnormally High Number Of Cloud Instances Destroyed
+- Abnormally High Number Of Cloud Instances Launched
+- Abnormally High Number Of Cloud Security Group API Calls
+- Abnormally High Number of Endpoint Changes By User
+- Abnormally High Number of HTTP Method Events By Src
+- Abuse Elevation Control Mechanism - Bypass User Account Control (sysmon)
+- Access LSASS Memory For Dump Creation
+- Access to In-scope Resources
+- Access to In-Scope Unencrypted Resources
+- Access Token Manipulation - Token Impersonation/Theft (sysmon)
+- Account Compromise with Suspicious Internal Activity
+- Account Compromised followed by Exfiltration
+- Account Deleted
+- Account Discovery With Net App
+- Account Manipulation - Exchange Email Delegate Permissions(powershell)
+- Active scanning - scanning ip blocks (firewall)
+- Activity from an expired Windows user
+- Activity from Expired User Identity
+- Activity from Expired User Identity - on Category
+- Add Defaultuser And Password In Registry
+- Adsisearcher Account Discovery
+- Adversary-in-the-Middle - LLMNR/NBT-NS poisoning and SMB relay (wineventlog)
+- Aggregate Risky Events
+- Allow File And Printing Sharing In Firewall
+- Allow Inbound Traffic By Firewall Rule Registry
+- Allow Inbound Traffic In Firewall Rule
+- Allow Network Discovery In Firewall
+- Allow Operation With Consent Admin
+- Amazon EKS Kubernetes Cluster Scan Detection
+- Amazon EKS Kubernetes Pod Scan Detection
+- Anomalous Audit Trail Activity Detected
+- Anomalous Location for Windows Executables
+- Anomalous New Listening Port
+- Anomalous New Process
+- Anomalous New Service
+- Anomalous Usage Of 7Zip
+- Any Powershell Downloadfile
+- Any Powershell Downloadstring
+- Application Layer Protocol - Web Protocols (bluecoat)
+- Asset Ownership Unspecified
+- Attacker Tools On Endpoint
+- Attempt To Add Certificate To Untrusted Store
+- Attempt To Stop Security Service
+- Attempted Credential Dump From Registry Via Reg Exe
+- Auditing Overview of Data Processing Systems (Glass Table)
+- Auth brute-force against local firewalladmin - Fortinet
+- Auth Brute-Force Targeting Local Checkpoint Firewall Admin Account
+- Authentication Against a New Domain Controller
+- Authentication brute-force against Cisco grouped by target user
+- Auto Admin Logon Registry Entry
+- Automated Exfiltration - Traffic Duplication (sysmon)
+- Automated Exfiltration - Traffic Duplication (sysmon)
 - AWS Create Policy Version To Allow All Resources
 - AWS Createaccesskey
 - AWS Createloginprofile
@@ -27,46 +80,6 @@
 - AWS Saml Update Identity Provider
 - AWS Setdefaultpolicyversion
 - AWS Updateloginprofile
-- Abnormally High Number Of Cloud Infrastructure API Calls
-- Abnormally High Number Of Cloud Instances Destroyed
-- Abnormally High Number Of Cloud Instances Launched
-- Abnormally High Number Of Cloud Security Group API Calls
-- Abnormally High Number of Endpoint Changes By User
-- Abnormally High Number of HTTP Method Events By Src
-- Access LSASS Memory For Dump Creation
-- Access to In-Scope Unencrypted Resources
-- Access to In-scope Resources
-- Account Compromise with Suspicious Internal Activity
-- Account Compromised followed by Exfiltration
-- Account Deleted
-- Account Discovery With Net App
-- Activity from Expired User Identity
-- Activity from Expired User Identity - on Category
-- Add Defaultuser And Password In Registry
-- Adsisearcher Account Discovery
-- Aggregate Risky Events
-- Allow File And Printing Sharing In Firewall
-- Allow Inbound Traffic By Firewall Rule Registry
-- Allow Inbound Traffic In Firewall Rule
-- Allow Network Discovery In Firewall
-- Allow Operation With Consent Admin
-- Amazon EKS Kubernetes Cluster Scan Detection
-- Amazon EKS Kubernetes Pod Scan Detection
-- Anomalous Audit Trail Activity Detected
-- Anomalous New Listening Port
-- Anomalous New Process
-- Anomalous New Service
-- Anomalous Usage Of 7Zip
-- Any Powershell Downloadfile
-- Any Powershell Downloadstring
-- Asset Ownership Unspecified
-- Attacker Tools On Endpoint
-- Attempt To Add Certificate To Untrusted Store
-- Attempt To Stop Security Service
-- Attempted Credential Dump From Registry Via Reg Exe
-- Auditing Overview of Data Processing Systems (Glass Table)
-- Authentication Against a New Domain Controller
-- Auto Admin Logon Registry Entry
 - Basic Brute Force Detection
 - Basic Dynamic DNS Detection
 - Basic Malware Outbreak
@@ -81,13 +94,20 @@
 - Blacklisted Domain
 - Blacklisted IP Address
 - Brute Force
+- Brute Force - Credential Stuffing
+- Brute force - credential stuffing (authentication)
+- Brute force - password guessing (authentication)
+- Brute force - password guessing (wineventlog)
+- Brute Force - Password Spraying
+- Brute force - password spraying (authentication)
+- Brute force - password spraying (wineventlog)
 - Brute Force Access Behavior Detected
 - Brute Force Access Behavior Detected - Against Category
 - Brute Force Access Behavior Detected Over One Day
 - Brute Force Access Behavior Detected Over One Day - Against Category
 - Brute Force Attack
 - Building a Departmental Peer Group
-- COVID-19 Indicator Check
+- Bypass through use of trailing space
 - Certutil Download With Urlcache And Split Arguments
 - Certutil Download With Verifyctl And Split Arguments
 - Certutil Exe Certificate Extraction
@@ -119,10 +139,19 @@
 - Cmdline Tool Not Executed In Cmd Shell
 - Cmlua Or Cmstplua Uac Bypass
 - Cobalt Strike Named Pipes
+- Code execution through rundll32.exe
+- Command and Scripting Interpreter - PowerShell (powershell)
+- Command and Scripting Interpreter - Powershell (sysmon)
+- Command and Scripting Interpreter - Visual Basic (sysmon)
+- Command and Scripting Interpreter - Windows Command Shell (sysmon)
 - Common Filename Launched from New Path
 - Common Ransomware Extensions
 - Common Ransomware Notes
+- Common tool Download process-pair Cradle observed
+- Common tool Download process-pair Cradle observed
+- Common tool Download process-pair Cradle observed
 - Completely Inactive Account
+- Compromise infrastructure - botnet (fortinet)
 - Compromised Account
 - Compromised Web Server
 - Concentration of Attacker Tools by Filename
@@ -130,11 +159,17 @@
 - Concentration of Discovery Tools by Filename
 - Concentration of Discovery Tools by SHA1 Hash
 - Concurrent Login Attempts Detected
+- Confidential CSA Data Accessed from Unauthorized Source (oracle)
 - Connection to New Domain
 - Conti Common Exec Parameter
 - Control Loading From World Writable Directory
 - Correlation By Repository And Risk
 - Correlation By User And Risk
+- COVID-19 Indicator Check
+- Create Account - domain account (sysmon)
+- Create Account - Domain Account (wineventlog)
+- Create Account - local account (sysmon)
+- Create Account - Local Account (wineventlog)
 - Create Local Admin Accounts Using Net Exe
 - Create Or Delete Windows Shares Using Net Exe
 - Create Remote Thread In Shell Application
@@ -146,35 +181,38 @@
 - Credential Dumping Via Copy Command From Shadow Copy
 - Credential Dumping Via Symlink To Shadow Copy
 - Credentials In File Detected
-- DNS Exfiltration Using Nslookup App
-- DNS Query Length Outliers - MLTK
-- DNS Query Length With High Standard Deviation
+- Data Encoding - Standard Encoding (sysmon)
 - Data Exfiltration after Account Takeover, High
 - Data Exfiltration after Account Takeover, Medium
 - Data Exfiltration after Data Staging
 - Data Exfiltration by suspicious user or device
+- Data Staged - Remote Data Staging (wineventlog)
 - Data Staging
 - Default Account Activity Detected
 - Default Account At Rest Detected
 - Delete Shadowcopy With Powershell
 - Deleting Of Net Users
 - Deleting Shadow Copies
+- Deobfuscate/decode files or information (sysmon)
+- Detect Activity Related To Pass The Hash Attacks
+- Detect Arp Poisoning
+- Detect Attackers Scanning For Vulnerable Jboss Servers
 - Detect AWS Console Login By New User
 - Detect AWS Console Login By User From New City
 - Detect AWS Console Login By User From New Country
 - Detect AWS Console Login By User From New Region
-- Detect Activity Related To Pass The Hash Attacks
-- Detect Arp Poisoning
-- Detect Attackers Scanning For Vulnerable Jboss Servers
 - Detect Azurehound Command-Line Arguments
 - Detect Azurehound File Modifications
 - Detect Baron Samedit Cve-2021-3156
 - Detect Baron Samedit Cve-2021-3156 Segfault
 - Detect Baron Samedit Cve-2021-3156 Via Osquery
+- Detect Brute-Force Attempt against Kerberos
 - Detect Computer Changed With Anonymous Account
 - Detect Copy Of Shadowcopy With Script Block Logging
+- Detect Created/Modified Scheduled Task
 - Detect Credential Dumping Through LSASS Access
 - Detect Credit Card Numbers using Luhn Algorithm
+- Detect Disable/remove/change PowerShell PSReadLine logging
 - Detect Empire With Powershell Script Block Logging
 - Detect Excessive Account Lockouts From Endpoint
 - Detect Excessive User Account Lockouts
@@ -207,6 +245,7 @@
 - Detect Outlook Exe Writing A Zip File
 - Detect Path Interception By Creation Of Program Exe
 - Detect Port Security Violation
+- Detect PowerShell Enable-PSRemoting
 - Detect Processes Used For System Network Configuration Discovery
 - Detect Prohibited Applications Spawning Cmd Exe
 - Detect Psexec With Accepteula Flag
@@ -242,10 +281,12 @@
 - Detect Traffic Mirroring
 - Detect Unauthorized Assets By MAC Address
 - Detect Use Of Cmd Exe To Launch Script Interpreters
-- Detect WMI Event Subscription Persistence
 - Detect Windows DNS Sigred Via Splunk Stream
 - Detect Windows DNS Sigred Via Zeek
+- Detect WMI Event Subscription Persistence
 - Detect Zerologon Via Zeek
+- Detecting RDP connection via proxy tunneling
+- Detecting RDP tunneling via Windows Event ID 4624
 - Detection Of Tools Built By Nirsoft
 - Disable Amsi Through Registry
 - Disable Etw Through Registry
@@ -266,15 +307,21 @@
 - Disabling Systemrestore In Registry
 - Disabling Task Manager
 - Dllhost With No Command Line Arguments With Network
+- DNS Exfiltration Using Nslookup App
+- DNS Query Length Outliers - MLTK
+- DNS Query Length With High Standard Deviation
 - Domain Account Discovery With Dsquery
 - Domain Account Discovery With Net App
 - Domain Account Discovery With Wmic
+- Domain Admin Credentials Exposed
 - Domain Controller Discovery With Nltest
 - Domain Controller Discovery With Wmic
 - Domain Group Discovery With Adsisearcher
 - Domain Group Discovery With Dsquery
 - Domain Group Discovery With Net
 - Domain Group Discovery With Wmic
+- Domain or Hostname IOC observed from internal MSDNS
+- Domain or Hostname IOC Observed from Proxy Events
 - Download Files Using Telegram
 - Download from Internal Server
 - Drop Icedid License Dat
@@ -286,22 +333,25 @@
 - Elevated Group Discovery With Powerview
 - Elevated Group Discovery With Wmic
 - Email Attachments With Lots Of Spaces
+- Email Collection - Remote Email Collection (powershell)
 - Email Files Written Outside Of The Outlook Directory
+- Email IOC observed from IronPort events
 - Email Servers Sending High Volume Traffic To Hosts
 - Emails from Outside the Organization with Company Domains
 - Emails with Lookalike Domains
 - Enable Rdp In Other Port Number
 - Endpoint Uncleaned Malware Detection
 - Enumerate Users Local Group Using Telegram
+- Enumeration of Powershell Logging Configurations
 - Esentutl Sam Copy
 - Eventvwr Uac Bypass
 - Excel Spawning Powershell
 - Excel Spawning Windows Script Host
 - Excessive Attempt To Disable Services
 - Excessive Box Downloads
-- Excessive DNS Queries
 - Excessive Data Printed
 - Excessive Data Transmission
+- Excessive DNS Queries
 - Excessive Downloads via VPN
 - Excessive Failed Logins
 - Excessive HTTP Failure Responses
@@ -314,17 +364,26 @@
 - Excessive Usage Of Nslookup App
 - Excessive Usage Of Sc Service Utility
 - Excessive Usage Of Taskkill
+- Excessive use of discovery techniques using lolbins
 - Exchange Powershell Abuse Via Ssrf
 - Exchange Powershell Module Usage
 - Executables Or Script Creation In Suspicious Path
 - Execute Javascript With Jscript Com Clsid
 - Execution Of File With Multiple Extensions
+- Ex-employee Attempt To Connect Over FRA
 - Exfiltration
+- Exfiltration (mcafee)
 - Exfiltration after Account Compromise
 - Exfiltration after Infection
 - Exfiltration after Suspicious Internal Activity
+- Exfiltration Over Alternative Protocol - Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol (ironport)
+- Exfiltration Over Alternative Protocol - Exfiltration Over Unencrypted/Obfuscated Non-C2 Protocol (liquidfiles)
+- Exfiltration over webservice (bluecoat)
 - Expected Host Not Reporting
 - Expected Host Not Reporting - in Category
+- Exploitation for client execution (mcafee)
+- Exploitation for privilege escalation (mcafee)
+- Exploitation of remote services (mcafee)
 - External Alarm Activity
 - External Website Attack
 - Extraction Of Registry Hives
@@ -335,6 +394,7 @@
 - File With Samsam Extension
 - Find Processes with Renamed Executables
 - Find Unusually Long CLI Commands
+- FireEye malicious URL NOT blocked and request in proxy
 - First Time Access to Jump Server for Peer Group
 - First Time Accessing an Internal Git Repository
 - First Time Accessing an Internal Git Repository Not Viewed by Peers
@@ -347,9 +407,19 @@
 - Flight Risk User
 - Flight Risk Web Browsing
 - Fodhelper Uac Bypass
+- FRA Authentication from Multiple Geograhic Locations
+- FRA Integrity check completion not detected
+- FRA Integrity check completion not detected (pulse secure)
+- FRA Integrity Checker Failed
+- FRA Potential MFA Bypass
+- FRA Service account usage (wineventlog)
+- FRA SMB File Share Configuration changes
+- FRA Unexpected network connections
 - Fsutil Zeroing File
 - GCP Detect Gcploit Framework
 - GCP Kubernetes Cluster Pod Scan Detection
+- Generic Stealthwatch Alarm trigger aggregated by dest
+- Generic Stealthwatch Alarm trigger aggregated by src
 - Geographically Improbable Access (Physical access and VPN)
 - Geographically Improbable Access Detected
 - Geographically Improbable Access Detected against Category
@@ -366,10 +436,6 @@
 - Get Domainuser With Powershell Script Block
 - Get Wmiobject Group Discovery
 - Get Wmiobject Group Discovery With Script Block Logging
-- Get-Domaintrust With Powershell
-- Get-Domaintrust With Powershell Script Block
-- Get-Foresttrust With Powershell
-- Get-Foresttrust With Powershell Script Block
 - Getadcomputer With Powershell
 - Getadcomputer With Powershell Script Block
 - Getadgroup With Powershell
@@ -382,6 +448,10 @@
 - Getdomaincontroller With Powershell Script Block
 - Getdomaingroup With Powershell
 - Getdomaingroup With Powershell Script Block
+- Get-Domaintrust With Powershell
+- Get-Domaintrust With Powershell Script Block
+- Get-Foresttrust With Powershell
+- Get-Foresttrust With Powershell Script Block
 - Getlocaluser With Powershell
 - Getlocaluser With Powershell Script Block
 - Getnettcpconnection With Powershell
@@ -406,19 +476,26 @@
 - Gsuite Outbound Email With Attachment To External Domain
 - Gsuite Suspicious Shared File Name
 - Healthcare Worker Opening More Patient Records Than Usual
+- Hide Artifacts - Hidden Files and Directories (sysmon)
+- Hide Artifacts - NTFS File Attributes (powershell)
 - Hide User Account From Sign-In Screen
 - Hiding Files And Directories With Attrib Exe
 - High File Deletion Frequency
+- High fuzzy ratio detected based on a known Windows executable name
+- High Number of Hosts Not Updating Malware Signatures
 - High Number Of Infected Hosts
 - High Number Of Login Failures From A Single Source
-- High Number of Hosts Not Updating Malware Signatures
 - High Or Critical Priority Host With Malware Detected
+- High or Critical Priority Individual Logging into Infected Machine
+- High or critical risk NGFW application activity detected
+- High Priority Events Detected from NIDS
 - High Process Count
 - High Process Termination Frequency
 - High Volume Email Activity to Non-corporate Domains by User
+- High volume of Kerberos ticket requests observed
 - High Volume of Traffic from High or Critical Host Observed
-- High or Critical Priority Individual Logging into Infected Machine
-- High or critical risk NGFW application activity detected
+- Honeypot Activity Detected from Windows
+- Horizontal Scan Detected Above StdDev from Fortinet
 - Host Sending Excessive Email
 - Host With A Recurring Malware Infection
 - Host With High Number Of Listening ports
@@ -430,27 +507,57 @@
 - Hosts Where Security Sources Go Quiet
 - Hosts with Varied and Future Timestamps
 - Hunting COVID Themed Attacks With IOCs
-- IP Investigate and Report
 - Icacls Deny Command
 - Icacls Grant Command
 - Icedid Exfiltrated Archived File Creation
 - Image From New Repository Detected
-- In-Scope Device with Outdated Anti-Malware Found
-- In-Scope System with Windows Update Disabled
+- Impair Defenses - Disable or Modify Tools (sysmon)
+- Impair Defenses - Disable Windows Event Logging (powershell)
+- Impair Defenses - Disable Windows Event Logging (wineventlog)
+- Impair Defenses - Downgrade Attack (sysmon)
+- Impair Defenses - Modified System Time (wineventlog)
 - Inactive Account Activity Detected
+- Inbound RDP tunneling using plink
 - Increase in # of Hosts Logged into
 - Increase in Pages Printed
 - Increase in Source Code (Git) Downloads
 - Increase in Windows Privilege Escalations
+- Indicator Removal on Host - Clear Windows Event Logs (powershell)
+- Indicator Removal on Host - Clear Windows Event Logs (sysmon)
+- Indicator Removal on Host - Clear Windows Event Logs (wineventlog)
+- Indicator Removal on Host - file deletion (sysmon)
+- Indirect Command Execution (sysmon)
 - Infected Host
 - Infection followed by Exfiltration
+- Ingress tool transfer (bluecoat)
+- In-Scope Device with Outdated Anti-Malware Found
+- In-Scope System with Windows Update Disabled
 - Insecure Or Cleartext Authentication Detected
 - Instance Created by Unusual User
 - Instance Modified by Unusual User
 - Integrating Threat Indicators with MISP and Splunk Enterprise Security
+- Internal to External Vertical Scan Detected from Single Host
+- Internal to Internal Horizontal Scan
+- Internal to Internal Vertical Scan Detected
 - Investigate GDPR Breaches Using ES
+- IOC sightings - external email address (liquidfiles)
+- IOC sightings - external hostname (liquidfiles)
+- IOC sightings - external IP address (liquidfiles)
+- IOC sightings - filehash in file transfer (liquidfiles)
+- IOC sightings - filehash on endpoint (sysmon)
+- IOC sightings - filehash on endpoint (tanium)
+- IOC sightings - from external email address (ironport)
+- IOC sightings - from external IP address (f5 waf)
+- IOC sightings - from external IP address (firewall)
+- IOC sightings - from external IP address (vpn)
+- IOC sightings - to external dns requests (msdns
+- IOC sightings - to external host/domain (bluecoat)
+- IOC sightings - to external IP address (firewall)
+- IOC sightings - to external URI (bluecoat)
+- IP Investigate and Report
 - Jscript Execution Using Cscript App
 - Kerberoasting Spn Request With RC4 Encryption
+- Known bad file hash detected from Sysmon events
 - Known Services Killed By Ransomware
 - Kubernetes AWS Detect Suspicious Kubectl Calls
 - Kubernetes Nginx Ingress Lfi
@@ -460,14 +567,17 @@
 - Large Volume Of DNS Any Queries
 - Large Web Upload
 - Lateral Movement
+- Lateral movement through DCOM and HTA
 - Local Account Creation
 - Local Account Discovery With Net
 - Local Account Discovery With Wmic
 - Machine Generated Beacon
 - Macos - Re-Opened Applications
 - Mailsniper Invoke Functions
+- Malicious activity detected on SEN assets via bluecoat proxy
 - Malicious AD Activity
 - Malicious Command Line Executions
+- Malicious executable found on Windows based on VT hash check
 - Malicious Insider Containment
 - Malicious Powershell Executed As A Service
 - Malicious Powershell Process - Connect To Internet With Hidden Window
@@ -477,9 +587,15 @@
 - Malicious URI with Potential Malware
 - Malware
 - Malware Investigation
+- Malware Outbreak Activity Observed
 - Many USB File Copies for User
+- Masquerading - Match Legitimate Name or Location (sysmon)
+- Masquerading - Rename System Utilities (sysmon)
+- Masquerading - Space after Filename (sysmon)
+- McAfee Access Protection Violation Detected
 - Modification Of Wallpaper
 - Modify ACL Permission To Files Or Folder
+- Modify registry (mcafee)
 - Monitor AutoRun Registry Keys
 - Monitor Email For Brand Abuse
 - Monitor Registry Keys For Print Monitors
@@ -488,6 +604,7 @@
 - Monitor Unsuccessful Backups
 - Monitor Unsuccessful Windows Updates
 - Monitor Web Traffic For Brand Abuse
+- MS Office Executable Child Process
 - Ms Scripting Process Loading Ldap Module
 - Ms Scripting Process Loading WMI Module
 - Mshta Spawning Rundll32 Or Regsvr32 Process
@@ -506,6 +623,7 @@
 - Multiple Disabled Users Failing To Authenticate From Host Using Kerberos
 - Multiple External Alarms
 - Multiple Failed Badge Access Attempts
+- Multiple failed badge attempts and unusual badge access time
 - Multiple Infections on Host
 - Multiple Invalid Users Failing To Authenticate From Host Using Kerberos
 - Multiple Invalid Users Failing To Authenticate From Host Using Ntlm
@@ -519,17 +637,20 @@
 - Multiple Users Failing To Authenticate From Host Using Ntlm
 - Multiple Users Failing To Authenticate From Process
 - Multiple Users Remotely Failing To Authenticate From Host
-- Multiple failed badge attempts and unusual badge access time
 - Net Localgroup Discovery
 - Net Profiler Uac Bypass
+- Network behavior analysis (stealthwatch)
 - Network Change Detected
 - Network Connection Discovery With Arp
 - Network Connection Discovery With Net
 - Network Connection Discovery With Netstat
 - Network Device Rebooted
 - Network Protocol Violation
+- Network security monitoring (firepower)
+- Network Service Scanning (firewall)
 - New AD Domain Detected
 - New Application Accessing Salesforce.com API
+- New Browser Version Seen on IOD
 - New Cloud API Call Per Peer Group
 - New Cloud Provider for User
 - New Connection to In-Scope Device
@@ -543,12 +664,13 @@
 - New Parent Process for cmd.exe or regedit.exe
 - New RunAs Host / Privileged Account Combination
 - New Service Paths for Host
-- New Suspicious Executable Launch for User
 - New Suspicious cmd.exe / regedit.exe / powershell.exe Service Launch
+- New Suspicious Executable Launch for User
 - New Tables Queried by Salesforce.com Peer Group
 - New Tables Queried by Salesforce.com User
 - New User Account Created On Multiple Hosts
 - New User Taking Privileged Actions
+- NIDS alerts Above StdDev Grouped by Destination
 - Nishang Powershelltcponeline
 - Nltest Domain Trust Discovery
 - No Windows Updates In A Time Frame
@@ -585,8 +707,19 @@
 - Okta Failed Sso Attempts
 - Okta User Logins From Multiple Cities
 - Old Passwords in Use
+- OS Credential Dumping - Cached Domain Credentials (sysmon)
+- OS Credential Dumping - Cached Domain Credentials (wineventlog)
+- OS Credential Dumping - DCSync (wineventlog)
+- OS Credential Dumping - LSA Secrets (sysmon)
+- OS Credential Dumping - LSASS Memory (sysmon)
+- OS Credential Dumping - NTDS (sysmon)
+- OS Credential Dumping - Security Account Manager (sysmon)
+- Outbound Proxy Data Transfer Above StdDev
+- Outbound RDP Connections using unexpected Image
 - Outbreak Detected
 - Outdated Malware Definitions
+- Outgoing Traffic Detected via Proxy
+- Outstanding alerts from NIDS grouped by Source
 - Overwriting Accessibility Binaries
 - Password Policy Discovery With Net
 - Period with Unusual Windows Security Event Sequences
@@ -594,19 +727,31 @@
 - Personally Identifiable Information Detected
 - Petitpotam Network Share Access Request
 - Petitpotam Suspicious Kerberos Tgt Request
+- Phishing - spearphishing attachment (sysmon)
+- Phishing - spearphishing link (bluecoat)
 - Phishing Investigation and Response
 - Plain Http Post Exfiltrated Data
+- Possible Application Whitelisting Bypass
+- Possible NTLM Relay Attack Towards Exchange
 - Possible Phishing Attempt
+- Potential abuse of GPO deployment for RDP sessions
+- Potential Attempt to Disable Event Logging via PowerShell
+- Potential Botnet traffic detected via Fortinet UTM
 - Potential Day Trading
+- Potential DCSYNC attack
 - Potential Flight Risk Exfiltration
 - Potential Flight Risk Staging
 - Potential Gap in Data
+- Potential McAfee Data Exfiltration
+- Potential Password Dumping Using LOLbins
 - Potential Phishing Attack
 - Potential Webshell Activity
 - Powershell 4104 Hunting
+- Powershell connecting to Exchange server
 - Powershell Creating Thread Mutex
 - Powershell Disable Security Monitoring
 - Powershell Domain Enumeration
+- Powershell downgrade attack behavior detected
 - Powershell Enable Smb1Protocol Feature
 - Powershell Execute Com Object
 - Powershell Fileless Process Injection Via Getprocaddress
@@ -614,6 +759,7 @@
 - Powershell Get Localgroup Discovery
 - Powershell Get Localgroup Discovery With Script Block Logging
 - Powershell Loading Dotnet Into Memory Via System Reflection Assembly
+- Powershell NTFS Alternate Data Streams
 - Powershell Processing Stream Of Data
 - Powershell Remote Thread To Known Windows Process
 - Powershell Start-Bitstransfer
@@ -625,6 +771,7 @@
 - Process Creating Lnk File In Suspicious Location
 - Process Deleting Its Process File Path
 - Process Execution Via WMI
+- Process hash seen with different path or name than in baseline
 - Process Kill Base On File Path
 - Processes Launching Netsh
 - Processes Tapping Keyboard Events
@@ -636,17 +783,21 @@
 - Prohibited Service Detected
 - Prompt and Block Domain
 - Protocol Or Port Mismatch
+- Protocol tunneling (sysmon)
 - Protocols Passing Authentication In Cleartext
+- Proxy - internal proxy (bluecoat)
 - Public Cloud Storage (Bucket)
 - Public facing Website Attack
 - Pull List of Privileged Users
-- RFC1918 IP Not in CMDB
+- Query Registry - Powershell Logging (powershell)
+- Query Registry - Powershell Logging (sysmon)
 - Ransomware Extensions
 - Ransomware Investigate and Contain
 - Ransomware Note Files
 - Ransomware Notes Bulk Creation
 - Ransomware Vulnerabilities
 - Recon Avproduct Through Pwh Or WMI
+- Recon Scan detection via Stealthwatch
 - Recon Using WMI Class
 - Recurring Infection on Host
 - Recursive Delete Of Directory In Batch Cmd
@@ -661,14 +812,25 @@
 - Remote Desktop Process Running On System
 - Remote PowerShell Launches
 - Remote Process Instantiation Via WMI
+- Remote Services - Distributed Component Object Model (sysmon)
+- Remote Services - Remote Desktop Protocol (sysmon)
+- Remote Services - Remote Desktop Protocol (wineventlog)
+- Remote Services - SMB/Windows Admin Shares (pulse secure)
+- Remote Services - SMB/Windows Admin Shares (sysmon)
 - Remote System Discovery With Adsisearcher
 - Remote System Discovery With Dsquery
 - Remote System Discovery With Net
 - Remote System Discovery With Wmic
 - Remote WMI Command Attempt
 - Resize Shadowstorage Volume
+- Retroactive report for Domain or Hostname IOC observed from MSDNS
+- Retroactive report for Domain\Hostname\IPv4 IOC observed from proxy
+- Retroactive report for Email IOC observed from IronPort events
+- Retroactive report for Known bad file hash detected from Sysmon
+- Retroactive report for URI IOC observed from proxy events
 - Revil Common Exec Parameter
 - Revil Registry Entry
+- RFC1918 IP Not in CMDB
 - Risky Events from Privileged Users
 - Rundll Loading DLL By Ordinal
 - Rundll32 Control Rundll Hunt
@@ -680,10 +842,6 @@
 - Rundll32 With No Command Line Arguments With Network
 - Ryuk Test Files Detected
 - Ryuk Wake On Lan Command
-- SFDC Suspicious volume of records accessed
-- SMB Traffic Allowed
-- SMB Traffic Spike
-- SMB Traffic Spike - MLTK
 - Sam Database File Access Attempt
 - Same Error On Many Servers Detected
 - Samsam Test File Write
@@ -693,35 +851,50 @@
 - Schedule Task With Http Command Arguments
 - Schedule Task With Rundll32 Command Trigger
 - Scheduled Task Deleted Or Created Via Cmd
+- Scheduled Task/Job - Scheduled Task (powershell)
+- Scheduled Task/Job - Scheduled Task (sysmon)
+- Scheduled Task/Job -Scheduled Task (wineventlog)
 - Schtasks Run Task On Demand
 - Schtasks Scheduling Job On Remote System
 - Schtasks Used For Forcing A Reboot
 - Script Execution Via WMI
 - Sdclt Uac Bypass
+- Search for Credentials in Registry
 - Searchprotocolhost With No Command Line With Network
 - Secretdumps Offline Ntds Dumping Tool
 - Sensitive Kubernetes Mount Pod Detected
 - Service Account Login
 - Services Escalate Exe
 - Set Default Powershell Execution Policy To Unrestricted Or Bypass
+- SFDC Suspicious volume of records accessed
 - Shim Database File Creation
 - Shim Database Installation With Suspicious Parameters
 - Short Lived Admin Accounts
 - Short Lived Windows Accounts
 - Short-lived Account Detected
+- Signed Binary Proxy Execution - compiled HTML file (sysmon)
+- Signed Binary Proxy Execution - Mshta (sysmon)
+- Signed Binary Proxy Execution - Regsvcs/Regasm (sysmon)
+- Signed Binary Proxy Execution - Regsvr32 (sysmon)
+- Signed Binary Proxy Execution - Rundll32 (sysmon)
+- Signed Binary Proxy Execution - Rundll32 (sysmon)
 - Significant Increase in Interactive Logons
 - Significant Increase in Interactively Logged On Users
 - Silentcleanup Uac Bypass
 - Single Letter Process On Endpoint
 - Slui Runas Elevated
 - Slui Spawning A Process
-- Sources Sending Many DNS Requests
+- SMB Traffic Allowed
+- SMB Traffic Spike
+- SMB Traffic Spike - MLTK
 - Sources Sending a High Volume of DNS Traffic
-- Spike In File Writes
+- Sources Sending Many DNS Requests
 - Spike in Downloaded Documents Per User from Salesforce.com
 - Spike in Exported Records from Salesforce.com
+- Spike In File Writes
 - Spike in Password Reset Emails
 - Spike in SMB Traffic
+- Splunk Data Deleted
 - Spoolsv Spawning Rundll32
 - Spoolsv Suspicious Loaded Modules
 - Spoolsv Suspicious Process Access
@@ -729,8 +902,10 @@
 - Spoolsv Writing A DLL - Sysmon
 - Sql Injection With Long Urls
 - Sqlite Module In Temp Folder
+- SrvWebFraPortal windows Service account usage
 - Stale Account Usage
 - Start Up During Safe Mode Boot
+- Steal or Forge Kerberos Tickets - Kerberoasting (wineventlog)
 - Substantial Increase In Events
 - Substantial Increase In Port Activity
 - Successful Login of Account for Former Employee
@@ -758,10 +933,10 @@
 - Suspicious Gpupdate No Command Line Arguments
 - Suspicious HTTP Redirects
 - Suspicious HTTP Redirects followed by Suspected Infection
-- Suspicious IP Address Communication
 - Suspicious Icedid Regsvr32 Cmdline
 - Suspicious Icedid Rundll32 Cmdline
 - Suspicious Image Creation In Appdata Folder
+- Suspicious IP Address Communication
 - Suspicious Java Classes
 - Suspicious Microsoft Workflow Compiler Rename
 - Suspicious Microsoft Workflow Compiler Usage
@@ -773,9 +948,13 @@
 - Suspicious Network Connection
 - Suspicious Network Exploration
 - Suspicious New Access
+- Suspicious Outbound RDP Connections
+- Suspicious Outgoing Proxy Traffic Detected
 - Suspicious Plistbuddy Usage
 - Suspicious Plistbuddy Usage Via Osquery
 - Suspicious Powershell Activity
+- Suspicious PowerShell commandlet or keyword
+- Suspicious Powershell Download
 - Suspicious Privilege Escalation
 - Suspicious Process File Path
 - Suspicious Reg Exe Process
@@ -789,26 +968,40 @@
 - Suspicious Searchprotocolhost No Command Line Arguments
 - Suspicious Sqlite3 Lsquarantine Behavior
 - Suspicious URL Communications and Redirects
+- Suspicious usage of wevtutil for EventLog manipulation
 - Suspicious Wav File In Appdata Folder
 - Suspicious Wevtutil Usage
 - Suspicious Writes To Windows Recycle Bin
+- SYN Flood detection via Stealthwatch
+- Sysmon events from an expired Windows user
+- Sysmon state changed
 - System Information Discovery Detection
 - System Processes Run From Unexpected Locations
+- System Services - Service Execution (sysmon)
+- System time changed by unexpected user or process
 - System User Discovery With Query
 - System User Discovery With Whoami
+- Tanium Detect IOC Match
 - Threat Activity Detected
 - Threat Hunting
+- TI&D - Data Deletion Attempt (splunk-audit)
 - Tor Traffic
 - Trickbot Named Pipe
-- USB storage attached an unusually high number of times
+- Two-Factor Authentication Interception (pulse secure)
 - Uac Bypass Mmc Load Unsigned DLL
 - Uac Bypass With Colorui Com Object
+- Unauthenticated Outgoing Traffic Detected via Proxy
 - Unauthorized Connection Through Firewall
 - Unified Messaging Service Spawning A Process
 - Uninstall App Using Msiexec
+- Unique executable detected on Windows based on VT hash check
+- Unique NIDS Signature Detected within Last 45d
+- Unique VirusScan Threat Type Detected within Last 30d
+- Unique WAF Violation Detected within Last 30d
 - Unload Sysmon Filter Driver
 - Unloading Amsi Via Reflection
 - Unrouteable Activity Detected
+- Untracked PowerShell encoded command
 - Untriaged Notable Events
 - Unusual Activity Time
 - Unusual Badge Reader Access
@@ -826,16 +1019,28 @@
 - Unusual Time of Badge Access
 - Unusual USB Activity
 - Unusual USB Device Plugged In
-- Unusual VPN Login Geolocation
 - Unusual Volume of Network Activity
+- Unusual VPN Login Geolocation
 - Unusual Web Browser
 - Unusual Windows Security Event (Unusual - Event Code, Process, Directory, LoginType, ReturnCode, Domain)
 - Unusually Long Command Line
 - Unusually Long Command Line - MLTK
 - Unusually Long Content-Type Length
 - Unusually Long VPN Session
+- URI IOC Observed from Proxy Events
+- Usage of attrib.exe for hiding files observed
+- Usage of PsExec Detected
+- USB storage attached an unusually high number of times
+- Use of Default Local Admin Account on Windows
+- User added to local administrators group
+- User Added to Windows Domain Administrator Group    
+- User Added to Windows Local Administrator Group
 - User Discovery With Env Vars Powershell
 - User Discovery With Env Vars Powershell Script Block
+- User execution - malicious file (bluecoat)
+- User Execution - Malicious File (mcafee)
+- User Execution - Malicious File (sysmon)
+- User Execution - Malicious Link (bluecoat)
 - User Finding Project Code Names from Many Departments
 - User Has Access to In-Scope Splunk Indexes They Should Not
 - User Logged into In-Scope System They Should Not Have
@@ -844,17 +1049,21 @@
 - User with Increase in Outgoing Email
 - User with Many DLP Events
 - Usn Journal Deletion
+- Valid Accounts - Default Accounts (wineventlog)
+- Valid Accounts - Domain Accounts (pulse secure)
+- Valid Accounts - Domain Accounts (sysmon)
+- Valid Accounts - Domain Accounts (wineventlog)
+- Virus Infection or Unwanted File Detected
 - Vulnerability Scanner Detected (by events)
 - Vulnerability Scanner Detected (by targets)
 - W3Wp Spawning Shell
-- WMI Permanent Event Subscription
-- WMI Permanent Event Subscription - Sysmon
-- WMI Recon Running Process Or Services
-- WMI Temporary Event Subscription
+- WAF Violations Above StdDev Grouped by Attack Source
+- WAF Violations Above StdDev Grouped by Target
 - Watchlisted Event Observed
 - Watering Hole Infection
 - Wbadmin Delete System Backups
 - Wbemprox Com Object Execution
+- Web application firewall (f5)
 - Web Browsing to Unauthorized Sites
 - Web Servers Executing Suspicious Processes
 - Web Site Compromised (Webshell)
@@ -862,23 +1071,32 @@
 - Wermgr Process Connecting To IP Check Web Services
 - Wermgr Process Create Executable File
 - Wermgr Process Spawned Cmd Or Powershell Process
+- WFH-PRD geo location anomaly dectection
+- Windows Account Lifetime Too Short
 - Windows Adfind Exe
+- Windows Audit Logs Cleared
 - Windows Disableantispyware Registry
 - Windows Event Log Cleared
 - Windows Event Log Clearing Events
+- Windows Event Log Service Shutdown
+- Windows Management Instrumentation (sysmon)
 - Windows Security Account Manager Stopped
+- Windows System Audit Policy Changed
 - Winevent Scheduled Task Created To Spawn Shell
 - Winevent Scheduled Task Created Within Public Path
 - Winrm Spawning A Process
 - Winword Spawning Cmd
 - Winword Spawning Powershell
 - Winword Spawning Windows Script Host
+- WMI Permanent Event Subscription
+- WMI Permanent Event Subscription - Sysmon
+- WMI Recon Running Process Or Services
+- WMI Temporary Event Subscription
 - Wmic Group Discovery
 - Write Executable In SMB Share
 - Wsreset Uac Bypass
 - Xmrig Driver Loaded
 - Xsl Script Execution With Wmic
 
-
-### Source:
+### Sources
 - https://docs.splunksecurityessentials.com/content-detail/
