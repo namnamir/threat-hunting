@@ -9,23 +9,44 @@
 
 # Commands
 ## Initializing a Repository
+- It will initialize and empty Git repository in `<path_to_directory>/.git/` on the local system.
+- A new repository needs to be pushed to the remote repository
+- Run `git init` with no arguments to initialize the current directory as a git repository.
 ```bash
 ### Initialize a Git Repository
-### It will initialize and empty Git repository in /path/to/myproject/.git/ on the local system
-### A new repository needs to be pushed to the remote repository
-git init
+git init <path_to_directory>
 
 ### Clone a repository to the local system
 git clone <repository_address>
 ```
 
-### Commiting Changes
+### Staging
 ```bash
+### Show modified files in working directory, staged for your next commit
+git status
+
 ### Add File(s) to a Commit
-### Move changes from the working directory to the Git staging area
+### Add a file as it looks now to your next commit (stage)
 git add <file_name>
 
-### Create a Commit (including the Message)
+### Add all modified files to a commit
+git add .
+
+### Add all files start with fil
+git add fil*
+
+### unstage a file while retaining the changes in working directory
+git reset <file_name>
+
+### Show the difference of what is changed but not staged
+git diff
+git diff <file_name>
+
+### Show the difference of what is changed but not yet commited
+git diff --staged
+
+### Commit changes (including the Message)
+### Commit your staged content (changes) as a new commit snapshot
 git commit -m "Message for the commit."
 
 ### Stage All Modified Files to be Committed
@@ -36,15 +57,26 @@ git commit -am "Message for the commit."
 
 ### Update an Existing Commit
 ### After adding a file and commiting it, we can amend a new commit to it
+### Replace the last commit with the staged changes and last commit combined.
 git commit --amend
+
+### Remove a file
+git rm <file_name>
+
+### Rename a a file
+git mv <old_file_name> <new_file_name>
 ```
 
 ## Branching
 ```bash
-### See Existing Branches
+### List Existing Branches
+### A * will appear next to the currently active branch
 git branch
 
-### Move to (Check You Out on) an Existing Branch
+### Show all branches (with remote)
+git branch -a
+
+### Switch to an existing branch and check it out into your working directory
 git checkout <existing_branch_name>
 
 ### Create a New Branch
@@ -82,17 +114,49 @@ git pull --all
 
 
 ## Configuration
+- The file `.gitignore` contains files to be ignored while pushing commits.
 ```bash
-git config --global core.askpass
+### List the existing configuration
+git config -l
+
+### Open the global configuration file in a text editor for manual editing.
+git config --global --edit
+
+### Define the author name to be used for all commits by the current user.
+git config --global user.name <name>
+
+### Define the author email to be used for all commits by the current user
+git config --global user.email <email>
+
+### Store login credentials in the cache
+git config --global credential.helper cache
+
+### set automatic command line coloring for Git for easy reviewing
+git config --global color.ui auto
+
+### An example of the file .gitignore
+/logs/*
+!logs/.gitkeep
+/tmp
+*.swp
 ```
 
-## Status
+## Status and Log
+- `git log` displays the entire commit history using the default format.
 ```bash
 ### List which files are staged, unstaged, and untracked
 git status
 
 ### Display committed snapshots
+### Show the commit history for the currently active branch
 git log
+
+### show the commit log as a graph
+git log --graph --oneline
+
+
+### See a specific commit
+git show <commit_id>
 ```
 
 ##### Sources
