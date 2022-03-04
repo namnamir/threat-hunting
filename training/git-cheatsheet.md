@@ -42,6 +42,9 @@ git reset <file_name>
 git diff
 git diff <file_name>
 
+### Show only the list of the modified files
+git diff --name-only
+
 ### Show the difference of what is changed but not yet commited
 git diff --staged
 
@@ -79,11 +82,14 @@ git branch -a
 ### Switch to an existing branch and check it out into your working directory
 git checkout <existing_branch_name>
 
-### Create a New Branch
+### Create a New Local Branch
 git branch <new_branch_name>
 
-### Create a New Branch and Move to (Check You Out on) it
+### Create a New Local Branch and Move to (Check You Out on) it
 git checkout -b <new_branch_name>
+
+### Checkout for Remote Branches
+git checkout --track origin/<remote_branch_name>
 
 ### Merge <another_branch_name> to the current branch
 ### If we are currently on the "master" branch, it will merge <another_branch_name> into the "master" one.
