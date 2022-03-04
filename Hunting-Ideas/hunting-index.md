@@ -1097,6 +1097,689 @@
 - Wsreset Uac Bypass
 - Xmrig Driver Loaded
 - Xsl Script Execution With Wmic
+- Attacker Technique - Extraction Of 7zip Archive With Password
+- Attacker Technique - Accessibility Tool Launching CMD or PowerShell
+- Attacker Technique - Accessibility Tool Launching Process
+- Attacker Technique - Add Domain Or Enterprise Admin With Net
+- Attacker Technique - AppLocker Bypass Via SCT Code Execution
+- Attacker Technique - Array Reverse Obfuscation Passed To PowerShell
+- Attacker Technique - Assign Mailbox To Another User With PowerShell
+- Attacker Technique - Attrib Sets File Or Directory As Hidden And System
+- Attacker Technique - Binary Executed from Windows\Temp\Sys
+- Attacker Technique - Blacklist User Accounts
+- Attacker Technique - CertUtil With Decode Flag
+- Attacker Technique - CertUtil With URLCache Flag
+- Attacker Technique - Clearing Event Logs With WEvtUtil
+- Attacker Technique - Cmd Executing Binary From Recycle Bin
+- Attacker Technique - Cmdkey Cached Credentials Recon
+- Attacker Technique - CMD Starts a URL
+- Attacker Technique - CMSTP UAC Bypass via COM Object Access
+- Attacker Technique - Command Execution Via ScreenConnect
+- Attacker Technique - Compressing Mailbox With 7zip
+- Attacker Technique - Create Account With WMIC or NET
+- Attacker Technique - Curl or WGet Request To Pastebin
+- Attacker Technique - Data Exfiltration To Box.com
+- Attacker Technique - Deleting Terminal Server Client\Default Key With Reg
+- Attacker Technique - Determining External IP Via Command Line
+- Attacker Technique - Domain Discovery With ADFind
+- Attacker Technique - Download and Execute Passed To PowerShell
+- Attacker Technique - Download And Execute With Background Intelligent Transfer Service
+- Attacker Technique - DSQuery Enumerating Servers
+- Attacker Technique - DWWin Executed From AppData\Roaming
+- Attacker Technique - Enable Null Cipher Using Reg
+- Attacker Technique - Encrypting Mailbox With WinRar
+- Attacker Technique - Enumerating Domain Or Enterprise Admins With Net Command
+- Attacker Technique - Enumeration of Domain Users With Net
+- Attacker Technique - Exfiltration Of Data To Cloud Storage With Rclone
+- Attacker Technique - Exfiltration Of Data To Dropbox
+- Attacker Technique - Exfiltration To Google Drive
+- Attacker Technique - Export SAM or SECURITY Registry Hive With Reg.exe
+- Attacker Technique - File Download and Execution Using AppInstaller
+- Attacker Technique - Find Admin SID Using Find or Findstr Commands
+- Attacker Technique: Find LSASS Process
+- Attacker Technique - Find RegASM
+- Attacker Technique - Grant Everyone All Permissions On Network Share With Net
+- Attacker Technique - Hash Dumping With NTDSUtil
+- Attacker Technique - Identifying LSASS Process Using FindStr
+- Attacker Technique - Imposter Windows Binary Executed From Non-Standard Directory
+- Attacker Technique - InstallUtil Running Executable
+- Attacker Technique - InstallUtil Running Remotely Hosted Executable
+- Attacker Technique - InstallUtil Spawns Process
+- Attacker Technique - Invisible Service
+- Attacker Technique - Known Utilities Executed From ProgramData
+- Attacker Technique - Log Deletion Utility
+- Attacker Technique - Minidump Used on LSASS
+- Attacker Technique - Minidump via COM Services DLL
+- Attacker Technique - Modification Of Files In Exchange Webroot
+- Attacker Technique - MpCmdRun.exe Downloads File
+- Attacker Technique - MSHTA Running JavaScript
+- Attacker Technique - MSIExec loading object via HTTP
+- Attacker Technique - MSTSC Spawned By Advanced IP Scanner
+- Attacker Technique - Net Command Deleting Exchange Admin Group
+- Attacker Technique - NetSupport Remote Access Tool
+- Attacker Technique - NirCMDC Takes Screenshot
+- Attacker Technique - NTDS File Access
+- Attacker Technique - OldCmp Executed
+- Attacker Technique - Ping Command And URL Passed To CertUtil
+- Attacker Technique - PowerShell Backtick Obfuscation
+- Attacker Technique - PowerShell Concatenation Obfuscation
+- Attacker Technique - PowerShell Download Cradle
+- Attacker Technique - PowerShell Download Cradles
+- Attacker Technique - PowerShell Get-ManagementRoleAssignment
+- Attacker Technique - PowerShell Get-WebServicesVirtualDirectory
+- Attacker Technique - PowerShell Invoke-WMIethod
+- Attacker Technique - PowerShell MailboxExportRequest
+- Attacker Technique - PowerShell Registry Cradle
+- Attacker Technique - PowerShell Remove-MailboxExportRequest
+- Attacker Technique - PowerShell Set-CASMailbox
+- Attacker Technique - PowerShell [type] Obfuscation
+- Attacker Technique - PowerShell UploadString
+- Attacker Technique - PowerShell Web Based Reverse Shell
+- Attacker Technique - PowerShell With DEADBEEF Environment Variable
+- Attacker Technique - Powershell With Split And Join Operators
+- Attacker Technique - ProcDump Output Filename For LSASS
+- Attacker Technique - ProcDump Used Against LSASS
+- Attacker Technique - Process Masquerading As IIS
+- Attacker Technique - Process Memory Dump with Rdrleakdiag.exe
+- Attacker Technique - Process Started From Windows Directory With Case Obfuscation
+- Attacker Technique - Query Windows System Policy Key
+- Attacker Technique - Reconnaissance Using ADExplorer
+- Attacker Technique - RegASM Executing Exe File
+- Attacker Technique - Reg.exe Setting Keys for fodhelper.exe UAC Bypass
+- Attacker Technique - Reg.exe Setting Keys for sdclt.exe UAC Bypass
+- Attacker Technique - Regsvr32 Loads Object From Web Server
+- Attacker Technique - Remote Access Via ScreenConnect
+- Attacker Technique - Renamed ADFind
+- Attacker Technique - Renamed AVDump
+- Attacker Technique - Renamed mshta.exe
+- Attacker Technique - Renamed ProcDump
+- Attacker Technique - Rundll32.exe Executes Start function from DLL
+- Attacker Technique - sdclt.exe /KickOffElev UAC Bypass
+- Attacker Technique - Searching For Passwords With Findstr
+- Attacker Technique - Set Debugger for Accessibility Process
+- Attacker Technique - Setting %COMSPEC% Variable
+- Attacker Technique - SpoolSV Spawns CMD or PowerShell
+- Attacker Technique - Stop Windows Defender
+- Attacker Technique - UAC Bypass Using DISMHost
+- Attacker Technique - UAC Bypass Using SCDLT
+- Attacker Technique - UAC Bypass Using SndVol
+- Attacker Technique - UAC Bypass Using SystemProperties Windows Binaries
+- Attacker Technique - UAC Bypass Using WSReset
+- Attacker Technique - URL Passed To BitsAdmin
+- Attacker Technique - WDigest UseLogonCredential Enabled
+- Attacker Technique - Windows Backup Admin Deletes Backup
+- Attacker Technique - WMIC Creating CMD Process
+- Attacker Technique - WMIC Creating Process
+- Attacker Technique - WUSA With Extract Flag
+- Attacker Technique - XSL Script Processing With WMIC
+- Attacker Teqhnique - DLL Injection via Tracker
+- Attacker Tool - ADCollector
+- Attacker Tool - ADPassHunt
+- Attacker Tool - Advanced IP Scanner
+- Attacker Tool - Advanced Port Scanner
+- Attacker Tool - Ammyy Admin
+- Attacker Tool - Antivirus-Disabling Utility
+- Attacker Tool - Binary Metadata Matches PowerShdll
+- Attacker Tool - Bloodhound
+- Attacker Tool - CHAOS Remote Access Tool (RAT)
+- Attacker Tool - CobaltStrike PowerShell Commands
+- Attacker Tool - Default Empire Scheduled Task Names
+- Attacker Tool - Direct HTTP Tunnel
+- Attacker Tool - DomainPasswordSpray
+- Attacker Tool - DumpCreds or DumpCerts Appears in PowerShell Command Line
+- Attacker Tool - Eldos Raw Disk Driver
+- Attacker Tool - Excavator
+- Attacker Tool - FFLanProxy
+- Attacker Tool - FireEye Stolen Tools
+- Attacker Tool - GadgetToJScript
+- Attacker Tool - GetShell
+- Attacker Tool - Hashcat
+- Attacker Tool - HiveNightmare
+- Attacker Tool - HTran Command Line Flags
+- Attacker Tool - Impacket
+- Attacker Tool - Impacket Lateral Movement
+- Attacker Tool - Impacket-Obfuscation
+- Attacker Tool - Interceptor-NG
+- Attacker Tool - Inveigh
+- Attacker Tool - Inveigh Output Filename Seen On Command Line
+- Attacker Tool - Invoke-Inveigh PowerShell Function
+- Attacker Tool - Invoke-TheHash
+- Attacker Tool - John The Ripper
+- Attacker Tool - Koadic WMI Event Filter and Consumer Binding
+- Attacker Tool - KWorking\agent.exe
+- Attacker Tool - LaZagne
+- Attacker Tool - LNKSmasher
+- Attacker Tool - Metasploit String Literal Obfuscation
+- Attacker Tool - Meterpreter/Cobalt Strike GetSystem
+- Attacker Tool - MimiKatz
+- Attacker Tool - Mimikatz AddSid
+- Attacker Tool - MimiKatz Command sekurlsa In Command Line
+- Attacker Tool - Mimikatz Command token::elevate lsadump
+- Attacker Tool - Mimikatz Module Names
+- Attacker Tool - MimiKatz RegASM
+- Attacker Tool - Mimipenguin
+- Attacker Tool - MSF.exe
+- Attacker Tool - MSOffice-Crypt
+- Attacker Tool - NetScanTools
+- Attacker Tool - New-GPOImmediateTask
+- Attacker Tool - Nishang Functions
+- Attacker Tool - Ophcrack
+- Attacker Tool - Password Recovery Pro
+- Attacker Tool - PetitPotam Tool
+- Attacker Tool - PowerCat
+- Attacker Tool - PowerLine
+- Attacker Tool - PowerLurk
+- Attacker Tool - PowerSharpPack
+- Attacker Tool - PowerShell Empire Command Line Flags
+- Attacker Tool - PowerShell Empire Modules
+- Attacker Tool - PowerShell -noni -ep -nop Flags
+- Attacker Tool - PowerTools Filenames
+- Attacker Tool - PowerUPSQL Function Name
+- Attacker Tool - PowerView
+- Attacker Tool - PrintSpoofer
+- Attacker Tool - PSAttack
+- Attacker Tool - PSR screenshot tool
+- Attacker Tool - PWDump
+- Attacker Tool - PXE and Loot
+- Attacker Tool - RottenPotato
+- Attacker Tool - Rubeus
+- Attacker Tool - RuralBishop
+- Attacker Tool - SafetyDump
+- Attacker Tool - SafetyKatz
+- Attacker Tool - Seatbelt
+- Attacker Tool - SecurityXploded
+- Attacker Tool - SharpBlock
+- Attacker Tool - SharpDump
+- Attacker Tool - SharPersist
+- Attacker Tool - SharpHound
+- Attacker Tool - SharPivot
+- Attacker Tool - SharpStomp
+- Attacker Tool - SharpView
+- Attacker Tool - SharpZeroLogon
+- Attacker Tool - SMBMap
+- Attacker Tool - SoftPerfect Network Scanner
+- Attacker Tool - Spraykatz
+- Attacker Tool - TargetIP Flag
+- Attacker Tool - WGet.vbs
+- Attacker Tool - Windows Credential Editor
+- Attacker Tool - Windows Credential Editor Changing Users Password
+- Bitcoin Miner - CPUMiner
+- Bitcoin Miner - Cryptonight Algorithm In Command Line
+- Bitcoin Miner - MinerD Process Name
+- Bitcoin Miner - Stratum Protocol In Command Line
+- Credential Access - Comsvc Minidump
+- Credential Access - Copying Credential Files with Esenutil
+- Credential Access - Find Password Files via Command Line
+- Credential Access - Mimikatz Pattern in CommandLine
+- Credential Access - ntdsutil Creating Installation Media
+- Credential Access - Querying Registry for Stored Credentials
+- Credential Dumping - Reg.exe Exporting Security, System or SAM Registry Keys
+- Defense Evasion - Alternate Data Stream in Command Line
+- Defense Evasion - AMSI Bypass
+- Defense Evasion - Applocker Bypass via MSDT.exe
+- Defense Evasion - Base64 Encoded UserAgent
+- Defense Evasion - Clearing PowerShell Logs
+- Defense Evasion - Cmd.exe Case Obfuscation
+- Defense Evasion - Delayed Variable Expansion
+- Defense Evasion - Disable UAC via reg.exe
+- Defense Evasion - Disable Windows Defender via Command Line
+- Defense Evasion - Disabling Anti-Malware Scan Interface
+- Defense Evasion - Disabling ETW .NET logging
+- Defense Evasion - Disabling Multiple Security or Backup Products
+- Defense Evasion: Disabling PowerShell Logging
+- Defense Evasion - Enabling Microsoft Office Macros via Registry
+- Defense Evasion - FLTMC.exe Unloading Sysmon Driver
+- Defense Evasion: Obfuscated HTTP Strings
+- Defense Evasion - Obfuscated Wscript.Shell
+- Defense Evasion - WMI Killing Processes
+- Discovery - ADFind Used
+- Discovery - CSVDE Used to Enumerate Domain Computers
+- Discovery - DSQuery Querying Computers
+- Discovery - Net Config
+- Discovery - Net.exe Enumerating Domain Users
+- Discovery - Redirect netstat Output to File
+- DLL Search Order Hijacking - ExtExport.exe
+- Execution - PowerShell System.Xml.XmlDocument
+- Execution - PowerShell via DLL
+- Execution - RegSvr32 Executing DLL with Non-Standard File Extension
+- Execution - RegSvr32 Loading Text File
+- Execution - RunDLL32 DavSetCookie
+- Execution - RunDll32 Executing DLL with Non-Standard File Extension
+- Exfiltration - Create Encrypted RAR
+- Forensics Test - agent.jobs.windows.processes - RDP
+- Lateral Movement - Enable RDP via reg.exe
+- Lateral Movement - Outlook Com Object
+- Lateral Movement - PoisonHandler
+- Malicious Document - Acrobat Reader Spawns Word To Open DOCM File
+- Malicious Document - BITSADMIN PowerShell from Command Line
+- Malicious Document - Common MalDoc file name
+- Malicious Document - Dropper Proxy Execution via MSIExec
+- Malicious Document - Excel SLK File Launching Process
+- Malicious Document - Excel Spawns cmd.exe or Powershell
+- Malicious Document - Excel Spawns MSHta
+- Malicious Document - Excel Spawns WMIC
+- Malicious Document - Excel Spawns Wscript or Cscript
+- Malicious Document - Fake Word Experienced An Error Message
+- Malicious Document - ftype and Pipe to Find
+- Malicious Document - HH Spawns MSHTA
+- Malicious Document - Imposter Document
+- Malicious Document - Internet Explorer Opening MHT File Inside Zip Archive
+- Malicious Document - Microsoft Office Spawns Process From Temp Directory
+- Malicious Document - Microsoft Publisher Spawns MSHTA
+- Malicious Document - Microsoft Publisher Spawns PowerShell
+- Malicious Document - Microsoft Word Spawns MSHTA
+- Malicious Document - Microsoft Word Spawns PowerShell
+- Malicious Document - MSHTA Retrieves From Remote Server
+- Malicious Document - MSHTA Spawned by PowerShell, WScript, CScript or CMD
+- Malicious Document - MSHTA Spawns WinVer
+- Malicious Document - MS Office Equation Editor Exploit
+- Malicious Document - ODBCConf Spawned By WScript
+- Malicious Document - ODBCConf Writes File To Users
+- Malicious Document - Office Spawning MSBuild
+- Malicious Document - Regsvr32 Spawned By Word, MSPub or Excel
+- Malicious Document - VBS Document Imposter
+- Malicious Document - Word Spawns CertUtil
+- Malicious Document - Word spawns cmd.exe
+- Malicious Document - Word Spawns CScript or WScript
+- Malicious Document - Word Spawns Event Viewer
+- Malicious Document - Word Spawns Executable From Users Directory
+- Malicious Document - Word Spawns Java
+- Malicious Document - Word Spawns MSIExec
+- Malicious Document - Word Spawns Schtasks.exe
+- Malicious Document - Word Spawns svchost.exe
+- Malicious Document - Word Spawns verclsid.exe
+- Malicious Document - Word Spawns wmic.exe
+- Network Discovery - Domain Computers via Net.exe
+- Network Discovery - Domain Controllers via Net.exe
+- Network Discovery - echo %logonserver%
+- Network Discovery - Nltest Enumerate Domain Controllers
+- Notable Behavior - vaultcmd.exe
+- Permission Modification - Takeown or Icacls used on Windows system binaries
+- Persistence - Bitsadmin SetNotifyCmdline
+- Persistence - Mobsync Launching Process
+- Persistence - Run Key Added by Reg.exe
+- Persistence - SchTasks Creating A Task Pointed At Users Temp Or Roaming Directory
+- Persistence - Schtasks.exe Creating Task That Executes RunDLL32
+- Persistence - Script Runs From Startup Folder
+- Persistence - Setting Debugger to Cmd or Powershell
+- Persistence - TaskEng Executes DLL
+- Potential Persistence Attempt - Schtask With Echo
+- PowerShell - Character Obfuscation
+- PowerShell - Command Start or Start-Process on Remote Script
+- PowerShell - Concatenate Strings
+- PowerShell DNS TXT Payload Download
+- PowerShell - Get Version Table
+- PowerShell - Headers['User-Agent'] string
+- PowerShell - ICM Execution
+- PowerShell - IEX in Environment Variable
+- PowerShell - Lateral Movement Using DCOM
+- PowerShell - Obfuscated Script
+- PowerShell - Obfuscation Reverse
+- PowerShell - Runtime.InteropServices.Marshal
+- PowerShell - SecureStringToGlobalAllocUnicode
+- Privilege Escalation - Mocking Trusted Directory to Bypass UAC
+- Privilege Escalation Tool - COMahawk
+- Process Injection - Werfault Spawning Windows Script Interpreter
+- Process Masquerading - Werfault.exe
+- Process Masquerading - WinInit.exe
+- Proxy Execution - Microsoft Teams Updater Downloads or Executes Binary
+- Proxy Execution: Pcwrun.exe Running Executable
+- Ransomware - fsutil usn deletejournal
+- Ransomware - PonyFinal Java Invocation
+- Suspicious Certificate - New Root Certificate
+- Suspicious Command - Batch Script and Two Executable Files
+- Suspicious Command - MSHTA Executing VBScript
+- Suspicious Command - PowerShell Downloads File via Internet Explorer Object
+- Suspicious Command - [Veeam.Backup.Common.ProtectedStorage]::GetLocalString
+- Suspicious PowerShell - Remote Python Execution
+- Suspicious Process - 7zip Executed From Users Directory
+- Suspicious Process - 7zip or WinRAR Launches Cmd, CScript, MsHta, PowerShell, WScript
+- Suspicious Process - Abnormal Executable File Extension
+- Suspicious Process - Abnormal Execution of ColorCPL.exe
+- Suspicious Process - Abnormal Execution of Search Indexer
+- Suspicious Process - AdLoad Malware File Paths
+- Suspicious Process - Anydesk Installed From Unusual Location
+- Suspicious Process - Apache Launches Wget or Curl
+- Suspicious Process - Appcmd.exe Creating Virtual Directory Pointing To ProgramData
+- Suspicious Process - Attempted Timestomping via PowerShell
+- Suspicious Process - Base64-Encoded PE File In Command Line Arguments
+- Suspicious Process - Base64-Encoded RAR File In Command Line Arguments
+- Suspicious Process - Base64-Encoded Zip File In Command Line Arguments
+- Suspicious Process - bi1 File in Command Line, Possible Ursnif Activity
+- Suspicious Process - Binary Executed From Or Spawned By Terminal Service Share
+- Suspicious Process - Binary On Remote IP Share
+- Suspicious Process - BitDefender Installer Runs Executable
+- Suspicious Process - BitsArbitraryFileMove Exploit
+- Suspicious Process - Boot Configuration Data Editor Activity
+- Suspicious Process - Browser Spawns Executable From Users Temp
+- Suspicious Process - Browser Spawns Scripting Engine
+- Suspicious Process - burpcollaborator.net in CommandLine
+- Suspicious Process - Cacls With Deny Flag
+- Suspicious Process - Caret Obfuscation
+- Suspicious Process - C:\Datop\ in Command Line
+- Suspicious Process - Certificate Exported via Command Line
+- Suspicious Process - CertUtil Decodes Executable File
+- Suspicious Process - CertUtil With Flags Verifyctl and Split
+- Suspicious Process - Child of CHCP
+- Suspicious Process - Child Of cmstp.exe
+- Suspicious Process - Child of ConHost
+- Suspicious Process - Child Of Remote Process
+- Suspicious Process - Child Of ScrCons
+- Suspicious Process - Child of SearchProtocolHost.exe
+- Suspicious Process - Child Of SVCHost With Flags -k TSGateway
+- Suspicious Process - Child Process Of 7zip or WinRar
+- Suspicious Process - Child Process Spawned by Binary in Recycle Bin
+- Suspicious Process - cmd.exe Starts Process From Remote SMB Share
+- Suspicious Process - cmd /k type
+- Suspicious Process - cmstp.exe with /s flag
+- Suspicious Process - cmstp.exe with /s /ns or /s /ni flags
+- Suspicious Process - CMSTP Loads .inf File
+- Suspicious Process - ColdFusion Webserver Spawns Shell Process
+- Suspicious Process - Common Code Injection Commands in Command Line
+- Suspicious Process - copy.exe Concatenating Binaries
+- Suspicious Process - Copying cmd.exe or PowerShell Binaries
+- Suspicious Process - Covenant C2 Commands
+- Suspicious Process - Creating a Service DLL with Reg.exe
+- Suspicious Process - CSC.exe Possible Compile and Execute In Memory
+- Suspicious Process - CScript.exe running PubPrn.vbs, Possible Remote Script Execution
+- Suspicious Process - CScript, WScript Spawns Process From Users Temp or Roaming Directory
+- Suspicious Process - ctfmon.exe in Non-Standard Location
+- Suspicious Process - Curl Passed Jenkins URL Environment Variable
+- Suspicious Process - Curl to External IP Address
+- Suspicious Process: C:\Windows\Help\Help Directory
+- Suspicious Process - Default Exploitation Framework DLL Functions
+- Suspicious Process - Delete Catalog Passed To WBAdmin
+- Suspicious Process - Delete File Shadow Copies With PowerShell
+- Suspicious Process - DelNodeRunDLL32 Function Executed
+- Suspicious Process - Disable Network Level Auth via PowerShell
+- Suspicious Process - Discord CDN URL in Command Line
+- Suspicious Process - DLL Added to Service via Registry Edit
+- Suspicious Process - DLL Executing Powershell Deobfuscation Commands
+- Suspicious Process - DLLHost With No Arguments Spawns Process
+- Suspicious Process - [d.m]::run() in Command Line
+- Suspicious Process - DNScmd DLL Loading DLL
+- Suspicious Process - DNS Exfiltration Utilities
+- Suspicious Process - DNS Spawns Process
+- Suspicious Process - DNX.exe - Possible Proxy Execution
+- Suspicious Process - DownloadFile and Expand-Archive Passed To PowerShell
+- Suspicious Process - Dump64.exe
+- Suspicious Process - Dynamic DNS in cmdline
+- Suspicious Process - Echo Redirected To System Pipe
+- Suspicious Process - Editing CodePage via Reg.exe
+- Suspicious Process - /E:Jscript in Command Line
+- Suspicious Process - Encoded GZIP Magic Bytes Passed To PowerShell
+- Suspicious Process - EseNtUtl Repair
+- Suspicious Process - Excel Opens XLL, PLL, or WLL file
+- Suspicious Process - Excel Spawns ForFiles
+- Suspicious Process - Exchange Server Spawns Process
+- Suspicious Process - Executable in User Directory Modifies Firewall
+- Suspicious Process - Executable Runs From C:\Perflogs
+- Suspicious Process - Executable With 7-Digit Hexadecimal Name Executed from Admin Share
+- Suspicious Process - Execution from Admin Share
+- Suspicious Process - Execution from C:\ImgContent Directory
+- Suspicious Process - Execution From Recycle Bin
+- Suspicious Process - Execution From Root of ProgramData
+- Suspicious Process - Execution From Root Of Users
+- Suspicious Process - Execution from System Volume Information
+- Suspicious Process - Execution of Encoded JavaScript File
+- Suspicious Process - exe/dll/ps1 File Copied From SMB Share
+- Suspicious Process - Expand Archive In ProgramData Directory
+- Suspicious Process - explorer.exe in Non-Standard Location
+- Suspicious Process - Explorer Runs JS File with WScript
+- Suspicious Process - Explorer Spawns Process From Command Line
+- Suspicious Process - File Unzip and Copy Using Shell Com Object
+- Suspicious Process - File Upload or Download via Certreq
+- Suspicious Process - Finger Contacting External IP Address
+- Suspicious Process - ForFiles Spawns Process From Users Directory
+- Suspicious Process - FSUtil Zeroing Out a File
+- Suspicious Process - GetObject Passed To MSHTA
+- Suspicious Process - Githack in Command Line
+- Suspicious Process - HH.exe Spawns Child Process
+- Suspicious Process - icacls.exe Grants Everyone Permissions
+- Suspicious Process - Icacls Grants Everyone All Permissions to Root of Drive
+- Suspicious Process - IEExec Downloading File
+- Suspicious Process - InfDefaultInstall.exe Spawns Process
+- Suspicious Process - Interactive at.exe
+- Suspicious Process - Invisi-Shell
+- Suspicious Process - Invoke-PSImage
+- Suspicious Process - iplogger.org in Command Line
+- Suspicious Process - Java.exe Spawns Attrib.exe, Icacls.exe, or Reg.exe
+- Suspicious Process - JavaScript:Eval in Command Line Arguments
+- Suspicious Process - JS Filename Associated with FakeUpdate
+- Suspicious Process - Killing Multiple Database Services
+- Suspicious Process - klist get
+- Suspicious Process - Koadic CommandLine Flags
+- Suspicious Process - Kovter Command Line Progress
+- Suspicious Process - .lnk in PowerShell Command Line
+- Suspicious Process - Malicious Hash On Asset
+- Suspicious Process - Masquerading as DLLHost
+- Suspicious Process - Mass Copy
+- Suspicious Process - Microsoft Office Launching Curl
+- Suspicious Process - Microsoft Office Spawns ntvdm.exe
+- Suspicious Process - Microsoft Word Spawning CPL File
+- Suspicious Process - mmc.exe Spawns Scripting Engine
+- Suspicious Process - Mode.com Select Codepage 1251
+- Suspicious Process - Modification of UserInitMprLogonScript Registry Key
+- Suspicious Process - Modification To Firewall For RDP
+- Suspicious Process - MSBuild Compiles and Executes from ProgramData Directory
+- Suspicious Process - MSBuild.exe Possibly Executing Code from XML FIle
+- Suspicious Process - MSBuild Spawns IExplore
+- Suspicious Process - MSDT Applocker Bypass
+- Suspicious Process - MSDTC Launched Process
+- Suspicious Process - MSHTA, CScript, WScript reading from HKCU
+- Suspicious Process - MSHTA.exe Spawns Reg.exe
+- Suspicious Process - MSHTA Reads File From ProgramData
+- Suspicious Process - MSHTA Spawns PowerShell
+- Suspicious Process - myip.opendns.com Response Redirected to File
+- Suspicious Process - Netcat
+- Suspicious Process - Net.exe Create User
+- Suspicious Process - NetSh Deprecated IPSec Command
+- Suspicious Process - netsh.exe disable interface
+- Suspicious Process - Netsh Firewall
+- Suspicious Process - NetSh Helper Dll
+- Suspicious Process - NetSh portproxy
+- Suspicious Process - Ngrok Running From User Directory
+- Suspicious Process - Obfuscated Registry Key
+- Suspicious Process - ODBCConf Registering DLL
+- Suspicious Process - .ost Seen In Command Line
+- Suspicious Process - Output Redirect to Single Character Text File
+- Suspicious Process - Password Search via PowerShell
+- Suspicious Process - Pastebin in PowerShell or Cmd.exe Command
+- Suspicious Process - PATHTOVBS Environment Variable Present
+- Suspicious Process - Path Traversal Evasion
+- Suspicious Process - Pcalua.exe Spawns Script Interpreter
+- Suspicious Process - Persistence via Magnify/Sticky Keys debugger
+- Suspicious Process - .pif File
+- Suspicious Process - Ping and Type
+- Suspicious Process - Ping Piping Output to Another Process
+- Suspicious Process - PkgMgr.exe Spawns Dism.exe, Possible UAC Bypass
+- Suspicious Process - Possible BGInfo.exe Proxy Execution
+- Suspicious Process - Possible code execution via the Windows Update client
+- Suspicious Process - Possible DLL Injection Using MavInject.exe
+- Suspicious Process - Possible Microsoft.Workflow.Compiler.exe AppControl Bypass
+- Suspicious Process - Possible Protocol Handler Poisoning
+- Suspicious Process - Possible Proxy Execution via RCSI.exe
+- Suspicious Process - Possible UAC Bypass via MMC.exe
+- Suspicious Process - Possible VirtualBox Ransomware Attack
+- Suspicious Process - Potential AppVLP Proxy Execution
+- Suspicious Process - Potential DXCap.exe Proxy Execution
+- Suspicious Process - Potential MSDeploy.exe Proxy Execution
+- Suspicious Process - Potential MSXML Proxy Execution
+- Suspicious Process - Potential SLUI.exe UAC Bypass
+- Suspicious Process - Powershell, BITSAdmin retrieving from GitHub
+- Suspicious Process - PowerShell Connect Function to Routable IP Address
+- Suspicious Process - PowerShell CopyFromScreen
+- Suspicious Process - PowerShell Creates Network Socket
+- Suspicious Process - PowerShell Disable Computer Restore
+- Suspicious Process - PowerShell DNS TXT Lookup
+- Suspicious Process - PowerShell Downloads Executable
+- Suspicious Process - PowerShell Editing Persistence-Related Registry Key
+- Suspicious Process - PowerShell Executes RunDLL32
+- Suspicious Process - PowerShell Executing [IO.File] Object
+- Suspicious Process - PowerShell GetAsyncKeyState
+- Suspicious Process - PowerShell Get Clipboard Content
+- Suspicious Process - PowerShell Interacting with Outlook via COM Object
+- Suspicious Process - Powershell Invoke-WebRequest
+- Suspicious Process - PowerShell IO.MemoryStream
+- Suspicious Process - PowerShell Keylogger Drive-by Pattern
+- Suspicious Process - PowerShell OpenRead to Remote PNG File
+- Suspicious Process - PowerShell Pushes Group Policy Update to All Systems
+- Suspicious Process - PowerShell Reflection.Assembly
+- Suspicious Process - PowerShell SAPS
+- Suspicious Process - PowerShell Setting or Using $windowsupdate Variable
+- Suspicious Process - PowerShell Sort-Object Get-Random
+- Suspicious Process - PowerShell Spawned By ForFiles
+- Suspicious Process - PowerShell Spawning .NET Binary
+- Suspicious Process - PowerShell Spawns Binary In Users\Public\Documents
+- Suspicious Process - PowerShell Spawns RunDLL32 With UserProfile
+- Suspicious Process - PowerShell Spawns WScript Running File Out Of Temp Folder
+- Suspicious Process - PowerShell System.Net.Sockets.TcpClient
+- Suspicious Process - PowerShell Uncommon Upper And Lower Case Combinations
+- Suspicious Process - PowerShell With BitsTransfer
+- Suspicious Process - Process Executed From live.sysinternals.com
+- Suspicious Process - Process From Users Directory Spawns SchTasks
+- Suspicious Process - Process Spawned By Outlook Web Access
+- Suspicious Process - Process Spawned By SAPStartSrv
+- Suspicious Process - Python Downloading and Executing Script
+- Suspicious Process - RegASM.exe in Non-Standard Location
+- Suspicious Process - RegASM Spawns Process
+- Suspicious Process - Regedit.exe Silently Imports File from Temp Directory
+- Suspicious Process - Reg.exe Adding GlobalFlag Key
+- Suspicious Process - Reg.exe Deleting Word or Excel Resiliency Keys
+- Suspicious Process - Reg.exe Editing Startup Folder Location
+- Suspicious Process - Reg.exe Querying Terminal Server Client\Default Key
+- Suspicious Process - Reg.exe Used to Hide Account from Logon Screen
+- Suspicious Process - Registry Export to Users Directory
+- Suspicious Process - Regsvr32.exe Registering DLL in ProgramData
+- Suspicious Process - Regsvr32.exe Registering DLL Outside of Program Files or Windows Directories
+- Suspicious Process - RegSvr32 Loads Silently From ProgramData
+- Suspicious Process - RegSvr32 Spawns Cmd, CScript, PowerShell, SchTasks, WScript
+- Suspicious Process - regsvr32 with /s /i flags and no dll
+- Suspicious Process - Remote Scheduled Task Created With at.exe
+- Suspicious Process - Remote Service Creation
+- Suspicious Process - Renamed BITSAdmin
+- Suspicious Process - Renamed CertUtil
+- Suspicious Process - Renamed CMD.exe
+- Suspicious Process - Renamed Microsoft.Workflow.Compiler.exe
+- Suspicious Process - Renamed MSBuild.exe
+- Suspicious Process - Renamed Netcat
+- Suspicious Process - Renamed PowerShell
+- Suspicious Process - Renamed Process Hacker
+- Suspicious Process - Renamed PSExec
+- Suspicious Process - Renamed rc.exe
+- Suspicious Process - Renamed RegSvr32
+- Suspicious Process - Renamed RegSvr32.exe Registering COM Object
+- Suspicious Process - Renamed RunDLL32
+- Suspicious Process - Renamed Script Host
+- Suspicious Process - Renamed WinRAR
+- Suspicious Process - Renamed WMIC
+- Suspicious Process - Reverse URL In Command Line
+- Suspicious Process - Rundl32.exe Executing File From ProgramData Directory
+- Suspicious Process - RunDLL32 Executing JavaScript
+- Suspicious Process - RunDLL32 Executing StartW Function
+- Suspicious Process - RunDLL32 in Non-Standard Directory
+- Suspicious Process: RunDLL32 launching CMD or PowerShell
+- Suspicious Process - RunDLL32 Running JavaScript
+- Suspicious Process - RunDLL32 Runs Function Using Ordinal
+- Suspicious Process - RunDLL32 With Ordinal Spawns RunDLL32 With Ordinal
+- Suspicious Process - RunDLL Pattern Match
+- Suspicious Process - runscripthelper.exe Application Whitelist Bypass
+- Suspicious Process - Ryuk Wake-on-Lan Feature
+- Suspicious Process - Scheduled Task Running RunDLL32
+- Suspicious Process - Schtask.exe Creates Task from XML File Without XML Extension
+- Suspicious Process - scomma, stab or stext Flags
+- Suspicious Process - Scrcons.exe Spawns Child Process
+- Suspicious Process - Scripting Engine With WordPress Uploads Directory In Command Line
+- Suspicious Process - SC Service Create
+- Suspicious Process - SC Stop Security Related Service
+- Suspicious Process - Services.exe Spawns 8 Character Mixed Case Executable
+- Suspicious Process - Services Spawns Process From Windows Directory Root
+- Suspicious Process - Set-Variable and Start-Process Passed To PowerShell
+- Suspicious Process - Seven Digit Hexadecimal Executable Name
+- Suspicious Process - ShadowCopy Delete Passed To WMIC
+- Suspicious Process - Shim Install
+- Suspicious Process - Sihost in Non-Standard Location
+- Suspicious Process - Single Character Executable with IP Address in Command Line
+- Suspicious Process - Sleep Then Delete
+- Suspicious Process - SQLPS/SQLToolsPS Executing Suspicious PowerShell Command
+- Suspicious Process - Started From Root Of Twain_32
+- Suspicious Process - Started From Users Music Directory
+- Suspicious Process - Started From Windows Debug
+- Suspicious Process - sudoedit with Suspicious Arguments
+- Suspicious Process - Supremo Remote Access in Non-Standard Location
+- Suspicious Process - Svchost.exe in Non-Standard Location
+- Suspicious Process - SvcHost spawns MSHTA
+- Suspicious Process - SVCHost with Unusual Arguments
+- Suspicious Process - TakeOwn or ICAcls Run Against SetHC
+- Suspicious Process - TaskEng Runs Script from ProgramData
+- Suspicious Process - TaskKill Multiple Times
+- Suspicious Process - Terminal Services Started from Command Line
+- Suspicious Process - TurboMailer
+- Suspicious Process - .txt.js File in Command Line
+- Suspicious Process - URL and Useragent in Javascript Command Line
+- Suspicious Process - Users Process Spawned By RegSvr32
+- Suspicious Process - VBC.exe With SText Flag
+- Suspicious Process - VerClsID Spawns Scripting Engine
+- Suspicious Process - VMWare Horizon Spawns Process
+- Suspicious Process - Volume Shadow Service Delete Shadow Copies
+- Suspicious Process - Volume Shadow Service Resizes Shadow Storage
+- Suspicious Process - Wermgr Runs Script Interpreter
+- Suspicious Process - Windows Credential Editor Command Line Flags
+- Suspicious Process - Windows Debug In Command Line
+- Suspicious Process - Windows Graphics Component Elevation of Privilege Vulnerability
+- Suspicious Process - Windows Installer Local Privilege Escalation
+- Suspicious Process - Winlogon\Userinit Registry Key Modification
+- Suspicious Process - WinRM Launches Shell
+- Suspicious Process - WinVNC to Remote IP Address
+- Suspicious Process - WMIC Creating PowerShell Process
+- Suspicious Process - WMIC.exe With Format Flag And HTTP
+- Suspicious Process - WMIC Launching MSHTA Process
+- Suspicious Process - WMIC Launching Remote Process
+- Suspicious Process - Wmic Launching RunDll32
+- Suspicious Process - WMIPrvSe Executes ScriptRunner
+- Suspicious Process - WMIPrvSe Spawns Cmstp
+- Suspicious Process - WMIPrvSe Spawns RunDLL32
+- Suspicious Process - WMI Queries Passed To PowerShell
+- Suspicious Process - Word or Excel Spawns RunDLL32
+- Suspicious Process - WordPad Using /p Flag With DLL
+- Suspicious Process - Word Spawns ForFiles
+- Suspicious Process - WScript, CScript, MSHTA Launching CSC
+- Suspicious Process - Wscript //e:VBScript
+- Suspicious Process - WScript or CScript Running Executable From Templates Directory
+- Suspicious Process - WScript Runs JavaScript File from Temp Or Download Directory
+- Suspicious Process - WScript.Shell Passed To MSHTA
+- Suspicious Process - WScript Starts File From Within Archive
+- Suspicious Process - Wsus.exe
+- Suspicious Process - xCmd Utility
+- Suspicious Process - XORed Data in PowerShell
+- Suspicious Process - XWizard.exe Downloading File
+- Suspicious Process - Zoho ManageEngine Spawns Child
+- Suspicious Scheduled Task - Created By Scripting Engine
+- Suspicious Scheduled Task - TaskEng Spawns Or Uses File From Users Temp Folder
+- System Discovery - WMIC Listing Processes
+- Test - Rapid7 InsightAgent Test
+- Trojan - 8 Digit Batch File In Temp
+- Trojan - Emotet Known Filename
+- Trojan - Firewall Rule Added For Program With All Protocols Allowed
+- Trojan - Java Spawns TaskKill
+- Trojan - QakBot
+- Trojan - Suspicious VBS File Run from AppData\Local\Temp
+- Trojan - TaskKill Security Tools
+- Trojan - Users Process Spawns SVCHost
+- Trojan - Vawtrak - Spawns Control.exe With /?
+- UAC Bypass - Custom WScript Manifest
+- UAC Bypass - Disk Cleanup Scheduled Task
+- UAC Bypass - DLL Load Order Hijacking
+- UAC Bypass - Eventvwr.exe
+- UAC Bypass - fodhelper.exe
+- UAC Bypass - MMC Launching Notepad
+- UAC Bypass - Notepad Launching CMD or PowerShell
+- User Discovery - WMIC UserAccount List
+- Webshell - China Chopper Executing Commands
+- Webshell - Commands Launched by Webserver
+- Webshell - IIS Spawns CMD To Spawn PowerShell
+- Webshell - IIS Spawns PowerShell
 
 ### Sources
 - https://docs.splunksecurityessentials.com/content-detail/
+- https://docs.rapid7.com/insightidr/windows-suspicious-process/
