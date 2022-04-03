@@ -104,24 +104,6 @@ xpack.security.encryptionKey: 8d6cd74eac9c4654eef3a5ec431f84a
 # open the config file
 sudo nano $KBN_PATH_CONF/kibana.yml
 ```
-
-### Installation of Logstash
-1. Follow the instruction [here](https://www.elastic.co/guide/en/logstash/current/installing-logstash.html)
-```bash
-sudo apt-get install logstash
-```
-2. Configure Logstash service to start automatically and start it.
-```bash
-# enable and start the Logstach service
-sudo systemctl enable logstash.service
-# in older systems (ver. < 220) enabling and starting the system should be separated; check it by `systemctl --version`
-sudo systemctl enable logstash.service && sudo systemctl start logstash.service
-```
-2.1. Check if it is up and active by running the following command.
-```bash
-sudo systemctl status logstash.service
-```
-
 ### Make Elasticsearch and Kibana Accessible Remotely
 If there is any need to be accessible remotely, uncomment the following line and modify them accordingly.
 
@@ -167,6 +149,23 @@ sudo ufw enable
 sudo ufw status
 # if there is any need to delete any rule
 sudo ufw delete 2 # where 2 is the line number shown in `sudo ufw status`
+```
+
+### Installation of Logstash
+1. Follow the instruction [here](https://www.elastic.co/guide/en/logstash/current/installing-logstash.html)
+```bash
+sudo apt-get install logstash
+```
+2. Configure Logstash service to start automatically and start it.
+```bash
+# enable and start the Logstach service
+sudo systemctl enable logstash.service
+# in older systems (ver. < 220) enabling and starting the system should be separated; check it by `systemctl --version`
+sudo systemctl enable logstash.service && sudo systemctl start logstash.service
+```
+2.1. Check if it is up and active by running the following command.
+```bash
+sudo systemctl status logstash.service
 ```
 
 ### Encrypt the Communications
@@ -348,6 +347,65 @@ sudo sysctl -w vm.max_map_count=262144
 Beats are agents installed on clients to send logs to either Logstash or directly to Elasticsearch.
 
 It depends on what kind of *Beat* is going to be installed, [here](https://www.elastic.co/guide/en/beats/libbeat/current/beats-reference.html) is the reference and [here](https://www.elastic.co/guide/en/elastic-stack-get-started/8.1/get-started-elastic-stack.html#install-beats) is the instruction to install them.
+
+#### Installation of Packetbeat
+Packetbeat sends network packets to Elasticsearch for analysis.
+
+1. Follow the instruction [here](https://www.elastic.co/guide/en/beats/packetbeat/current/packetbeat-installation-configuration.html)
+```bash
+# install libpcap packet capture library
+sudo apt-get install libpcap0.8
+# download and install Packetbeat
+curl -L -O https://artifacts.elastic.co/downloads/beats/packetbeat/packetbeat-8.1.2-amd64.deb
+sudo dpkg -i packetbeat-8.1.2-amd64.deb
+```
+2. Change the Packetbeat configuration.
+```bash
+# open the config file
+sudo nano /etc/packetbeat/packetbeat.yml
+```
+And edit the YML config file
+```yml
+# assure these lines are not commented and the values are correct
+
+# set the network interface that needs to be captured; "any" means all.
+packetbeat.interfaces.device: any
+
+# set the Kibana address
+setup.kibana:
+  # Scheme and port can be left out and will be set to the default (http and 5601)
+  host: "http://192.168.0.152:5601"
+
+# set the Elasticsearch address
+output.elasticsearch:
+  # Array of hosts to connect to.
+  hosts: ["192.168.0.152:9200"]
+  protocol: "https"
+  # Authentication credentials - either API key or username/password.
+  #api_key: "id:api_key"
+  username: "elastic"
+  password: "m2_hl=1dO6R_7bjBwEj7"
+  
+  ssl.verification_mode: "none"
+```
+3. Configure Packetbeat service to start automatically and start it.
+```bash
+# enable and start the Packetbeat service
+sudo systemctl enable packetbeat --now
+# in older systems (ver. < 220) enabling and starting the system should be separated; check it by `systemctl --version`
+sudo systemctl enable packetbeat && sudo systemctl start packetbeat
+```
+4. Check if the config file is properly formed and the connection to Elasticsearch is up and running.
+```bash
+# check the config file
+sudo packetbeat test config
+# check the connection
+sudo packetbeat test output
+```
+5. Install dashboards on Kibana
+```bash
+sudo packetbeat setup
+```
 
 ### Auto-start VirtualBox VM on boot
 If the Elasticsearch server is installed on VirtualBox, there is a need to run it automatically. The configuration is explained [here](https://www.virtualbox.org/manual/ch09.html#autostart).
