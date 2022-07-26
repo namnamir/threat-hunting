@@ -1,11 +1,19 @@
 
 # Concepts
-- A **commit** is a record of what changes you have made since the last time you made a commit.
-- To add a file to a _commit_, you first need to add it to the **staging** environment.
-- **Branches** allow you to move back and forth between 'states' of a project.
-- By default, every Git repository’s first **branch** is usually named `master`. Every repository has a primary **branch** that can be thought of as the official version of the repository.
-- **Pushing** the _commit_ in a _branch_ to a repository (pushing changes) allows other people to see the changes you've made.
+- Files can be in one of three states: Modified, Staged, Committed.  
+  - By **modifying** a file, the change will only be found in the working directory (workspace).
+  - By **staging** the changes, they will be included in the next _commit_. To add a file to a _commit_, you first need to add it to the **staging** environment.
+  - To store _staged_ files in the repo, we need to **commit** them. A **commit** is a record of what changes you have made since the last time you made a commit.
+- It is possible to **reset** _commit(s)_ to discard commits that you no longer need.
+- **Pushing** the _commit_ in a _branch_ to a repository (pushing changes) allows other people to see the changes; share changes with others.
+- To update the local repository (workspace) with the lates _pushes_, we need to **pull** changes.
 - A **pull request** (or PR) is a way to alert a repo's owners that you want to make some changes to their code.
+- **Branches** are independent lines of development. They allow you to move back and forth between 'states' of a project.  
+  - By default, every Git repository’s first **branch** is usually named `master`. Every repository has a primary **branch** that can be thought of as the official version of the repository.
+  - Whenever you switch to another _branch_ with uncommitted changes (or new files added) in your working folder, these uncommitted changes will also be carried to the new branch that you switch to. Changes that you commit will be committed to the newly switched branch.
+- Different _branches_ can be **merged** into any one branch as long as they belong to the same repository.
+- A Git **tag** is used to label and mark a specific commit in the history. Tags are commonly used to indicate release versions, with the release name (i.e., v1.0) being the name of the tag.
+![Git](img/git.jpg)
 
 # Commands
 ## Initializing a Repository
@@ -22,24 +30,55 @@ git clone <repository_address>
 
 ### Staging
 ```bash
+##################################
+# View the status of the project #
+##################################
 ### Show modified files in working directory, staged for your next commit
 git status
 
-### Add File(s) to a Commit
+### Show the status in 2 columns: staging area and working directory (workspace)
+git status -s
+
+### Meaning of the letters when getting the status (git status -s)
+?   Not added to cache
+A   Locally added files
+M   The content or mode of the file has been modified
+AM  After the file is added to the cache, it needs to be added by git again
+D   Files deleted locally
+R   Modify file name
+
+###########################
+# Add file(s) to a Commit #
+###########################
 ### Add a file as it looks now to your next commit (stage)
 git add <file_name>
+
+## Add files are changed
+git add -u
 
 ### Add all modified files to a commit
 git add .
 
-### Add all files start with fil
+### Add all files in the wildcard fashion (e.g. start with "fil")
 git add fil*
 
-### unstage a file while retaining the changes in working directory
+### Add multiple files
+git add <file_name1>,<file_name2>,<file_name3>
+
+#############
+# Unstaging #
+#############
+### Unstage a file while retaining the changes in working directory
 git reset <file_name>
 
+
+######################
+# See the difference #
+######################
 ### Show the difference of what is changed but not staged
 git diff
+
+### Show the difference of a specific file
 git diff <file_name>
 
 ### Show only the list of the modified files
@@ -48,7 +87,10 @@ git diff --name-only
 ### Show the difference of what is changed but not yet commited
 git diff --staged
 
-### Commit changes (including the Message)
+
+####################
+### Commit changes #
+####################
 ### Commit your staged content (changes) as a new commit snapshot
 git commit -m "Message for the commit."
 
@@ -63,9 +105,26 @@ git commit -am "Message for the commit."
 ### Replace the last commit with the staged changes and last commit combined.
 git commit --amend
 
+
+############################
+# Remove files and folders #
+############################
 ### Remove a file
 git rm <file_name>
 
+### Remove a file from staging area but keep it in the working directory (workspace)
+git rm --cached <file_name>
+
+### Remove a file from staging area and the working directory (workspace)
+git rm -f <file_name>
+
+### Remove a directory recursively
+git rm -r <folder_name>
+
+
+##################################
+# Move or rename files & folders #
+##################################
 ### Rename a a file
 git mv <old_file_name> <new_file_name>
 ```
@@ -79,11 +138,14 @@ git branch
 ### Show all branches (with remote)
 git branch -a
 
-### Switch to an existing branch and check it out into your working directory
-git checkout <existing_branch_name>
+### Delete Branches
+git branch -d <branch_name>
 
 ### Create a New Local Branch
 git branch <new_branch_name>
+
+### Switch to an existing branch and check it out into your working directory
+git checkout <existing_branch_name>
 
 ### Create a New Local Branch and Move to (Check You Out on) it
 git checkout -b <new_branch_name>
@@ -94,9 +156,6 @@ git checkout --track origin/<remote_branch_name>
 ### Merge <another_branch_name> to the current branch
 ### If we are currently on the "master" branch, it will merge <another_branch_name> into the "master" one.
 git merge <another_branch_name>
-
-### Delete Branches
-git branch -d <branch_name>
 ```
 
 ## Pushing Changes to the Repository
@@ -117,7 +176,6 @@ git pull origin master
 ### pull all changes from the remote repository to the local repository
 git pull --all
 ```
-
 
 ## Configuration
 - The file `.gitignore` contains files to be ignored while pushing commits.
@@ -168,3 +226,5 @@ git show <commit_id>
 ##### Sources
 - [An Intro to Git and GitHub for Beginners](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 - [Learn Git with Bitbucket Cloud](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
+- [Git foundation and introduction](https://programmer.group/enterprise-level-automation-code-release-git-foundation-and-introduction.html)
+- [Backlog Git Tutorial](https://backlog.com/git-tutorial/)
