@@ -1,4 +1,4 @@
-# Web Application Architecture?
+# Web Application Architecture
 Web application architecture is a blueprint of simultaneous interactions between components, databases, middleware systems, user interfaces, and servers in an application. It can also be described as the layout that logically defines the connection between the server and client-side for a better web experience.
 ![Webapp Architecture](img/webapp-architecture.png)
 
@@ -94,7 +94,7 @@ In challenge-response authentication, the server makes a request – the challen
 The general HTTP authentication framework is the base for a number of authentication schemes such as Basic, Bearer, Digest, HOBA, Mutual, etc.
 
 #### Example: Basic Authentication
-The "Basic" HTTP authentication scheme is defined in RFC 7617, which transmits credentials as user ID/password pairs, encoded using base64.
+The `Basic` HTTP authentication scheme is defined in RFC 7617, which transmits credentials as user ID/password pairs, encoded using base64.
 
 As the user ID and password are passed over the network as clear text (it is base64 encoded, but base64 is a reversible encoding), the basic authentication scheme is not secure. HTTPS/TLS should be used with basic authentication. Without these additional security enhancements, basic authentication should not be used to protect sensitive or valuable information.
 
