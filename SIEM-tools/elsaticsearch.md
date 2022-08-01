@@ -14,7 +14,7 @@ echo "deb [signed-by=/usr/share/keyrings/elasticsearch-keyring.gpg] https://arti
 # update the system and install Elasticsearch
 sudo apt-get update && sudo apt-get install elasticsearch
 ```
-2. Write down the password shown when the installation is finished; always the defualt superuser is `elastic`.
+2. Write down the password shown when the installation is finished; always the default superuser is `elastic`.
 ```bash
 --------------------------- Security autoconfiguration information ------------------------------
 (...)
@@ -329,17 +329,12 @@ server.ssl
   key: /etc/kibana/certs/kibana.key
 ```
 
-
-
-
-
 #### Additional Settings
 1. Add virtual memory by increase the value of `vm.max_map_count` in the file `/etc/sysctl.conf` to increase speed of Elasticsearch. It can be done by the following command.
 ```bash
 sudo sysctl -w vm.max_map_count=262144
 ```
 2. Set the maximum threat to 4096 in the file `/usr/lib/systemd/system/elasticsearch.service` for users including `root`. It should be `LimitNPROC=4096`.
-
 
 
 ## Client-side
