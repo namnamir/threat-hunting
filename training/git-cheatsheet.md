@@ -14,7 +14,7 @@
 - Different _branches_ can be **merged** into any one branch as long as they belong to the same repository.
 - A Git **tag** is used to label and mark a specific commit in the history. Tags are commonly used to indicate release versions, with the release name (i.e., v1.0) being the name of the tag.
 ![Git](img/git.jpg)
-![Git Flow](img/git-flow.jpg)
+![Git Flow](img/git-flow.png)
 
 # Commands
 ## Initializing a Repository
