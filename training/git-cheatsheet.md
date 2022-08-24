@@ -6,7 +6,7 @@
   - To store _staged_ files in the repo, we need to **commit** them. A **commit** is a record of what changes you have made since the last time you made a commit.
 - It is possible to **reset** _commit(s)_ to discard commits that you no longer need.
 - **Pushing** the _commit_ in a _branch_ to a repository (pushing changes) allows other people to see the changes; share changes with others.
-- To update the local repository (workspace) with the lates _pushes_, we need to **pull** changes.
+- To update the local repository (workspace) with the latest _pushes_, we need to **pull** changes.
 - A **pull request** (or PR) is a way to alert a repo's owners that you want to make some changes to their code.
 - **Branches** are independent lines of development. They allow you to move back and forth between 'states' of a project.  
   - By default, every Git repository’s first **branch** is usually named `master`. Every repository has a primary **branch** that can be thought of as the official version of the repository.
@@ -14,6 +14,7 @@
 - Different _branches_ can be **merged** into any one branch as long as they belong to the same repository.
 - A Git **tag** is used to label and mark a specific commit in the history. Tags are commonly used to indicate release versions, with the release name (i.e., v1.0) being the name of the tag.
 ![Git](img/git.jpg)
+![Git Flow](img/git-flow.jpg)
 
 # Commands
 ## Initializing a Repository
@@ -47,6 +48,7 @@ AM  After the file is added to the cache, it needs to be added by git again
 D   Files deleted locally
 R   Modify file name
 
+
 ###########################
 # Add file(s) to a Commit #
 ###########################
@@ -65,11 +67,15 @@ git add fil*
 ### Add multiple files
 git add <file_name1>,<file_name2>,<file_name3>
 
-#############
-# Unstaging #
-#############
-### Unstage a file while retaining the changes in working directory
-git reset <file_name>
+
+###################
+# Unstage / Reset #
+###################
+### Unstage (discard uncommitted) changes in working directory
+git restore <file_name>
+
+### Reset the index to discard changes in the working directory
+git reset
 
 
 ######################
@@ -84,7 +90,7 @@ git diff <file_name>
 ### Show only the list of the modified files
 git diff --name-only
 
-### Show the difference of what is changed but not yet commited
+### Show the difference of what is changed but not yet committed
 git diff --staged
 
 
@@ -101,7 +107,7 @@ git commit -a
 git commit -am "Message for the commit."
 
 ### Update an Existing Commit
-### After adding a file and commiting it, we can amend a new commit to it
+### After adding a file and committing it, we can amend a new commit to it
 ### Replace the last commit with the staged changes and last commit combined.
 git commit --amend
 
@@ -208,7 +214,7 @@ git config --global color.ui auto
 ## Status and Log
 - `git log` displays the entire commit history using the default format.
 ```bash
-### List which files are staged, unstaged, and untracked
+### List which files are staged, un-staged, and untracked
 git status
 
 ### Display committed snapshots
