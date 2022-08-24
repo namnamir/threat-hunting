@@ -206,7 +206,7 @@ git config --global color.ui auto
 
 ### An example of the file .gitignore
 /logs/*
-!logs/.gitkeep
+/logs/.gitkeep
 /tmp
 *.swp
 ```
