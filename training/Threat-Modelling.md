@@ -74,7 +74,9 @@ This system is designed to help security teams access threats, identify impacts,
 
 CVSS accounts for the inherent properties of a threat and the impacts of the risk factor due to time since the vulnerability was first discovered. It also includes measures that allow security teams to modify risk scores based on individual system configurations specifically.
 
-![Threat Modeling Steps](img/CSVV.png)
+![Common Vulnerability Scoring System (CVSS) 3.1](img/cvss-3.0.png)
+![Common Vulnerability Scoring System (CVSS) 3.1 vs 4.0](img/cvss-3.0-vs-4.0.png)
+![Common Vulnerability Scoring System (CVSS) 4.0](img/cvss-4.0.png)
 
 ### Visual, Agile, and Simple Threat (VAST)
 Visual, Agile, and Simple Threat (VAST) is an automated threat modeling method built on the ThreatModeler platform. Large enterprises implement VAST across their infrastructure to generate reliable, actionable results and maintain scalability.
