@@ -76,19 +76,19 @@
 
 # Access Control Concepts
  - **Audit**: Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance "with established policies and operational procedures. NIST SP 1800-15B
- - **Crime Prevention through Environmental Design (CPTED)**: An architectural approach to the design of buildings and spaces that emphasizes passive features to reduce the likelihood of criminal activity.
+ - **Crime Prevention through Environmental Design (CPTED)**: An architectural approach to designing buildings and spaces that emphasizes passive features to reduce the likelihood of criminal activity.
  - **Defense in Depth**: Information security strategy integrating people, technology, and operations capabilities to establish variable barriers across multiple layers and missions of the organization. Source: NIST SP 800-53 Rev 4
- - **Discretionary Access Control (DAC)**: A certain amount of access control is left to the discretion of the object’s owner or anyone else authorized to control the object’s access. The owner can determine who should have access rights to an object and what those rights should be. NIST SP 800-192
+ - **Discretionary Access Control (DAC)**: A certain amount of access control is left to the discretion of the object’s owner or anyone else authorized to control the object’s access. The owner can determine who should have access rights to an object and what those rights should be. NIST SP 800-192. Discretionary access control is a model wherein permissions are granted by operational managers, allowing them to determine which personnel can get specific access to particular assets controlled by the manager
  - **Encrypt**: To protect private information by putting it into a form that can only be read by people with permission.
  - **Firewalls**: Devices that enforce administrative security policies by filtering incoming traffic based on rules.
  - **Insider Threat**: An entity with authorized access that has the potential to harm an information system through destruction, disclosure, modification of data, and denial of service. NIST SP 800-32
- - **iOS**: An operating system manufactured by Apple Inc and used for mobile devices.
+ - **iOS**: An operating system manufactured by Apple Inc. and used for mobile devices.
  - **Layered Defense**: The use of multiple controls arranged in series to provide several consecutive rules to protect an asset; also called defense in depth.
  - **Linux**: An operating system that is open source, making its source code legally available to end users.
  - **Log Anomaly**: A system irregularity identified when studying log entries that could represent events of interest for further surveillance.
  - **Logging**: Collecting and storing user activities in a log, a record of the events occurring within an organization’s sythreat'sd networks. NIST SP 1800-25B.
- - **Logical Access Control Systems**: An automated system that controls an iorganization'sility to access one or more computer system resources, such as a workstation, network, application, or database. A logical access control system requires the validation of an individual’s identity through some mechanism, such as a PIN, card, biometric, or other token. It can assign different access privileges to different individuals depending on their roles and responsibilities in an organization. NIST SP 800-53 Rev.5.
- - **Mandatory Access Control**: Access control that requires the system to manage access controls per the organization’s security policies.
+ - **Logical Access Control Systems**: An automated system that controls an iorganization'sility to access one or more computer system resources, such as a workstation, network, application, or database. A logical access control system requires the validation of an individual’s identity through some mechanism, such as a PIN, card, biometric, or other token. It can assign different access privileges to different individuals depending on their organizational roles and responsibilities. NIST SP 800-53 Rev.5.
+ - **Mandatory Access Control**: Access control requires the system to manage access controls per the organization’s security policies.
  - **Mantrap**: An entrance to a building or an area requiring people to pass through two doors with only one open one.
  - **Object**: Passive information system-related entity (e.g., devices, files, records, tables, processes, programs, domains) containing or receiving information. Access to an object (by a subject) implies access to its information. See subject. Source: NIST SP 800-53 Rev 4
  - **Physical Access Controls**: Controls implemented through a tangible mechanism. Examples include walls, fences, guards, locks, etc. Many physical control systems in modern organizations are linked to technical/logical systems, such as badge readers connected to door locks.
