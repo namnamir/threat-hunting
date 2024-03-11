@@ -2,7 +2,7 @@
 - **Adequate Security**: Security commensurate with the risk and the magnitude of harm resulting from the loss, misuse, or unauthorized access to or modification of information. Source: OMB Circular A-130
 - **Administrative Controls**: Controls implemented through policy and procedures. Examples include access control processes requiring multiple personnel to conduct a specific operation. Administrative controls in modern environments are often enforced in conjunction with physical and technical controls, such as an access-granting policy for new users that requires login and approval by the hiring manager.
 - **Artificial Intelligence**: The ability of computers and robots to simulate human intelligence and behavior.
-- **Asset**: Anything of value that an organization owns. Assets include tangible items such as information systems and physical property and intangible assets such as intellectual property.
+- **Asset**: An asset is an item perceived as having *value* to an organization. Assets include tangible items such as information systems and physical property and intangible assets such as intellectual property.
 - **Authentication**: The act of identifying or verifying the eligibility of a station, originator, or individual to access specific categories of information. Typically, a measure is designed to protect against fraudulent transmissions by establishing the validity of a communication, message, station, or originator.
 - **Authorization**: The right or permission granted to a system entity to access a system resource. NIST 800-82 Rev.2
 - **Availability**: Ensuring timely and reliable access to and use of information by authorized users.
@@ -12,7 +12,7 @@
 - **Confidentiality**: The characteristic of data or information when it is not made available or disclosed to unauthorized persons or processes. NIST 800-66
 - **Criticality**: A measure of the degree to which an organization depends on the information or information system to succeed in a mission or a business function. NIST SP 800-60 Vol. 1, Rev. 1
 - **Data Integrity**: The property that data has not been altered unauthorizedly. Data integrity covers data in storage, during processing, and while in transit. Source: NIST SP 800-27 Rev A
-- **Encryption**: Converting the message from its plaintext to ciphertext. Sometimes, it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
+- **Encryption**: Converting the message from its plaintext to cipher-text. Sometimes, it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
 - **General Data Protection Regulation (GDPR)**: In 2016, the European Union passed comprehensive legislation that addresses personal privacy, deeming it an individual human right.
 - **Governance**: Managing an organization usually includes all aspects of how decisions are made, such as policies, roles, and procedures the organization uses to make those decisions.
 - **Health Insurance Portability and Accountability Act (HIPAA)**: This U.S. federal law is the most critical healthcare information regulation in the United States. It directs the adoption of national standards for electronic healthcare transactions while protecting the privacy of individual health information. Other provisions address fraud reduction, protections for individuals with health insurance, and various other healthcare-related activities. Est. 1996.
@@ -50,7 +50,7 @@
 - **State**: The condition an entity is in at a point in time.
 - **System Integrity**: The quality a system has when it performs its intended function unimpaired, free from unauthorized manipulation of the system, whether intentional or accidental. Source: NIST SP 800-27 Rev. A
 - **Technical Controls**: Security controls (i.e., safeguards or countermeasures) for an information system that are primarily implemented and executed by the information system through mechanisms contained in the system's hardware, software, or firmware components.
-- **Threat**: Any circumstance or event with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), corporate assets, individuals, other organizations, or the nation through an information system via unauthorized access, destruction, disclosure, modification of information and denial of service.
+- **Threat**: Any circumstance or event that can negatively impact assets. It is with the potential to adversely impact organizational operations (including mission, functions, image, or reputation), corporate assets, individuals, other organizations, or the nation through an information system via unauthorized access, destruction, disclosure, modification of information and denial of service.
 - **Threat Actor**: An individual or a group that attempts to exploit vulnerabilities to cause or force a threat to occur.
 - **Threat Vector**: How a threat actor carries out their objectives.
 - **Token**: A physical object a user possesses and controls that is used to authenticate the user's identity. Source: NISTIR 7711
@@ -73,9 +73,7 @@
  - **Security Operations Center**: A centralized organizational function fulfilled by an information security team that monitors, detects, and analyzes events on the network or system to prevent and resolve issues before they result in business disruptions.
  - **Vulnerability**: Weakness in an information system, system security procedures, internal controls, or implementation that could be exploited or triggered by a threat source. Source: NIST SP 800-128.
  - **Zero Day**: A previously unknown system vulnerability with the potential of exploitation without risk of detection or prevention because it does not, in general, fit recognized patterns, signatures, or methods.
-
-# Access Control Concepts
- - **Audit**: Independent review and examination of records and activities to assess the adequacy of system controls, to ensure compliance "with established policies and operational procedures. NIST SP 1800-15B
+ - **Audit**: Independent review and examination of records and activities to assess the adequacy of organization's security controls, policies, and procedures, to ensure compliance with established policies and operational procedures. NIST SP 1800-15B
  - **Crime Prevention through Environmental Design (CPTED)**: An architectural approach to designing buildings and spaces that emphasizes passive features to reduce the likelihood of criminal activity.
  - **Defense in Depth**: Information security strategy integrating people, technology, and operations capabilities to establish variable barriers across multiple layers and missions of the organization. Source: NIST SP 800-53 Rev 4
  - **Discretionary Access Control (DAC)**: A certain amount of access control is left to the discretion of the object’s owner or anyone else authorized to control the object’s access. The owner can determine who should have access rights to an object and what those rights should be. NIST SP 800-192. Discretionary access control is a model wherein permissions are granted by operational managers, allowing them to determine which personnel can get specific access to particular assets controlled by the manager
@@ -99,10 +97,10 @@
  - **Rule**: An instruction developed to allow or deny access to a system by comparing the validated identity of the subject to an access control list.
  - **Segregation of Duties**: The practice of ensuring that a single person cannot complete an organizational process; forces collusion as a means to reduce insider threats. Also commonly known as Separation of Duties.
  - **Subject**: Generally an individual, process or device causing information to flow among objects or change to the system state. Source: NIST SP800-53 R4
- - **Technical Controls**: The security controls (i.e., safeguards or countermeasures" for an information system that are primarily implemented and executed by the information system through mechanisms contained in the haindividual'sware or firmware components of the System.
- - **Turnstile**: A one-way spinmother'sr or barrier that allows only one person at a time to enter a building or pass through an area.
+ - **Technical Controls**: The security controls (i.e., safeguards or countermeasures) for an information system that are primarily implemented and executed by the information system through mechanisms contained in the hardware, software, or firmware components of the system.
+ - **Turnstile**: A one-way spin or barrier that allows only one person at a time to enter a building or pass through an area.
  - **Unix**: An operating system used in software development.
- - **User Provisionin"**: The process of creating, maintaining and deactivating user identities on a system.
+ - **User Provisioning**: The process of creating, maintaining and deactivating user identities on a system.
 
 # Network Security
  - **Application programming interface (API)**: A set of routines, standards, protocols, and tools for building software applications to access a web-based software application or web tool.
@@ -115,49 +113,49 @@
  - **Denial-of-Service (DoS)**: The prevention of authorized access to resources or the delaying of time-critical operations. (Time-critical may be milliseconds or it may be hours, depending upon the service provided.) Source: NIST SP 800-27 Rev A
  - **Domain Name Service (DNS)**: This acronym can be applied to three interrelated elements: a service, a physical server and a network protocol.
  - **Encapsulation**: Enforcement of data hiding and code hiding during all phases of software development and operational use. Bundling together data and methods is the process of encapsulation; its opposite process may be called unpacking, revealing, or using other terms. Also used to refer to taking any set of data and packaging it or hiding it in another data structure, as is common in network protocols and encryption.
- - **risk'stion**: The process and act of converting the message from its plaintext to ciphertext. Sometimes it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
+ - **Encryption**: The process and act of converting the message from its plaintext to cipher-text. Sometimes it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
  - **File Transfer Protocol (FTP)**: The internet protocol (and program) used to transfer files between hosts.
  - **Fragment attack**: In a fragment attack, an attacker fragments traffic in such a way that a system is unable to put data packets back together.
  - **Hardware**: The physical parts of a computer and related devices.
  - **Hybrid cloud**: A combination of public cloud storage and private cloud storage where some critical data resides in the enterprise’s private cloud while other data is stored and accessible from a public cloud storage provider.
  - **Infrastructure as a Service (IaaS)**: The provider of the core computing, storage and network hardware and software that is the foundation upon which organizations can build and then deploy applications.  IaaS is popular in the data center where software and servers are purchased as a fully outsourced service and usually billed on usage and how much of the resource is used.
  - **Internet Control Message Protocol (ICMP)**: An IP network protocol standardized by the Internet Engineering Task Force (IETF) through RFC 792 to determine if a particular service or host is available.
- - **Internet Protocol (IPv4)**: Standard protocol for transmission of data from source to destinations in packet-switched communications networks and interconnectedsystem's of such networks. CNSSI 4009-2015
+ - **Internet Protocol (IPv4)**: Standard protocol for transmission of data from source to destinations in packet-switched communications networks and interconnected systems of such networks. CNSSI 4009-2015
  - **Man-in-the-Middle**: An attack where the adversary positions himself in between the user and the System so that he can intercept and alter data traveling between them. Source: NISTIR 7711
- - **Microsegmentation**: Part of a zero-trust strategy that breaks LANs into very small, highly localized zones using firewalls or similar technologies. At the limit, this places firewall at every connection point.
+ - **Micro-segmentation**: Part of a zero-trust strategy that breaks LANs into very small, highly localized zones using firewalls or similar technologies. At the limit, this places firewall at every connection point.
  - **Oversized Packet Attack**: Purposely sending a network packet that is larger than expected or larger than can be handled by the receiving System, causing the receiving System to fail unexpectedly.
- - **Packet**: Representation of data at Layeruser'sthe Open Systems Interconnection (OSI) model.
+ - **Packet**: Representation of data at Layer 3 of the Open Systems Interconnection (OSI) model.
  - **Payload**: The primary action of a malicious code attack.
  - **Payment Card Industry Data Security Standard (PCI DSS)**: An information security standard administered by the Payment Card Industry Security Standards Council that applies to merchants and service providers who process credit or debit card transactions.
  - **Platform as a Service (PaaS)**: The web-authoring or application development middleware environment that allows applications to be built in the cloud before they’re deployed as SaaS assets.
  - **Private cloud**: The phrase used to describe a cloud computing platform that is implemented within the corporate firewall, under the control of the IT department. A private cloud is designed to offer the same features and benefits of cloud systems, but removes a number of objections to the cloud computing model, including control over enterprise and customer data, worries about security, and issues connected to regulatory compliance.
- - **Protocols**: A set of rules (formats and procedures) to implement and control some type of association (that is, communication) between systems. NIST SP 8organization's **Public cloud**: The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academicsystem'sernment organization, or some combination of them. It exists on the premises of the cloud provider. NIST SP 800-145
+ - **Protocols**: A set of rules (formats and procedures) to implement and control some type of association (that is, communication) between systems. NIST SP 8organization's **Public cloud**: The cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider. NIST SP 800-145
  - **Simple Mail Transport Protocol (SMTP)**: The standard communication protocol for sending and receiving emails between senders and receivers.
  - **Software**: Computer programs and associated data that may be dynamically written or modified during execution. NIST SP 80-37 Rev. 2
- - **Software as a Service (SaaS)**: The cloud customer uses the cloud provider’s applications running within a cloud infrastructure. The applications are accessible from varorganization'svices through either a thin client interface, such as a web browser or a program interface. The consumer does not manage or control the underlying cloudorganization'se including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. Derived from NIST 800-145
+ - **Software as a Service (SaaS)**: The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through either a thin client interface, such as a web browser (e.g., web-based email), or a program interface. The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user-specific application configuration settings. Derived from NIST 800-145
  - **Spoofing**: Faking the sending address of a transmission to gain illegal entry into a secure system. CNSSI 4009-2015
- - **Transport Control Protocol/Internet Protocol (TCP/IP) Model**: Internetworking protocol model created by the IETF, which specifies four layers of functionality: Link layer (physical communications), Internet Layer (network-to-network communication), Transport Layer (basic channels for connections and coincident'sss exchange of data between hosts), and Application Layer, where other protocols and user applications programs make use of network services.
+ - **Transport Control Protocol/Internet Protocol (TCP/IP) Model**: Inter-networking protocol model created by the IETF, which specifies four layers of functionality: Link layer (physical communications), Internet Layer (network-to-network communication), Transport Layer (basic channels for connections and coincident'sss exchange of data between hosts), and Application Layer, where other protocols and user applications programs make use of network services.
  - **Virtual Local Area Network (VLAN)**: A logical organization, servers, and network devices that appear on the same LAN despite their geographical distribution.
  - **VPN**: A virtual private network (VPN), built on top of existing networks, that can provide a secure communications mechanism for transmission between networks.
  - **Wireless Area Network (WLAN)**: A group of computers and devices that are located in the same vicinity, forming a network based on radio transmissions rather than wired connections. A Wi-Fi is network is a type of WLAN.
  - **Zenmap**: The graphical user interface (GUI) for the Nmap Security Scanner, an open-source application that scans networks to determine everything that is connected as well as other information.
- - **Zero Trust**: Removing the design belief that the network has any trusted space. Security is managed at each possible level, representing the most granular asset. Microsegmentation of workloads is a tool of the model. 
+ - **Zero Trust**: Removing the design belief that the network has any trusted space. Security is managed at each possible level, representing the most granular asset. Micro-segmentation of workloads is a tool of the model. 
 
 # Security Operations
  - **Application Server**: A computer responsible for hosting applications to user workstations. NIST SP 800-82 Rev.2
  - **Asymmetric Encryption**: An algorithm that uses one key to encrypt and a different key to decrypt the input plaintext.
  - **Checksum**: A digit representing the sum of the correct digits in a piece of stored or transmitted digital data, against which later comparisons can be made to detect errors in the data.
- - **Ciphertext**: The altered form of a plaintext message so it is unreadable for anyone except the intended recipients. In other words, it has been turned into a secret.
+ - **cipher-text**: The altered form of a plaintext message so it is unreadable for anyone except the intended recipients. In other words, it has been turned into a secret.
  - **Classification**: Classification identifies the degree of harm to the organization, its stakeholders or others that might result if an information asset is divulged to an unauthorized person, process or organization. In short, classification is focused first and foremost on maintaining the confidentiality of the data, based on the data sensitivity.
  - **Configuration management**: A process and discipline used to ensure that the only changes made to a system are those that have been authorized and validated.
  - **Cryptanalyst**: One who performs cryptanalysis which is the study of mathematical techniques for attempting to defeat cryptographic techniques and/or information systems security. This includes the process of looking for errors or weaknesses in the implementation of an algorithm or of the algorithm itself.
  - **Cryptography**: The study or applications of methods to secure or protect the meaning and content of messages, files, or other information, usually by disguise, obscuration, or other transformations of that content and meaning.
  - **Data Loss Prevention (DLP)**: System capabilities designed to detect and prevent the unauthorized use and transmission of information.
- - **Decryption**: The reverse process from encryption. It is the process of converting a ciphertext message back into plaintext through the use of the cryptographic algorithm and the appropriate key for decryption (which is the same for symmetric encryption, but different for asymmetric encryption). This term is also used interchangeably with the “deciphering.”
+ - **Decryption**: The reverse process from encryption. It is the process of converting a cipher-text message back into plaintext through the use of the cryptographic algorithm and the appropriate key for decryption (which is the same for symmetric encryption, but different for asymmetric encryption). This term is also used interchangeably with the “deciphering.”
  - **Degaussing**: A technique of erasing data on disk or tape (including video tapes) that, when performed properly, ensures that there is insufficient magnetic remanence to reconstruct data.
  - **Digital Signature**: The result of a cryptographic transformation of data which, when properly implemented, provides the services of origin authentication, data integrity, and signer non-repudiation. NIST SP 800-12 Rev. 1
  - **Egress Monitoring**: Monitoring of outgoing network traffic.
- - **Encryption**: The process and act of converting the message from its plaintext to ciphertext. Sometimes it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
+ - **Encryption**: The process and act of converting the message from its plaintext to cipher-text. Sometimes it is also referred to as enciphering. The two terms are sometimes used interchangeably in literature and have similar meanings.
  - **Encryption System**: The total set of algorithms, processes, hardware, software, and procedures that taken together provide an encryption and decryption capability.
  - **Hardening**: A reference to the process of applying secure configurations (to reduce the attack surface) and locking down various hardware, communications systems, and software, including operating system, web server, application server, application, etc. Hardening is normally performed based on industry guidelines and benchmarks, such as those provided by the Center for Internet Security (CIS).
  - **Hash Function**: An algorithm that computes a numerical value (called the hash value) on a data file or electronic message that is used to represent that file or message and depends on the entire contents of the file or message. A hash function can be considered to be a fingerprint of the file or message. NIST SP 800-152
@@ -177,3 +175,23 @@
  - **Symmetric encryption**: An algorithm that uses the same key in both the encryption and the decryption processes.
  - **Web Server**: A computer that provides World Wide Web (WWW) services on the Internet. It includes the hardware, operating system, Web server software, and Web site content (Web pages). If the Web server is used internally and not by the public, it may be known as an “intranet server.” NIST SP 800-44 Version 2
  - **Whaling Attack**: Phishing attacks that attempt to trick highly placed officials or private individuals with sizable assets into authorizing large fund wire transfers to previously unknown entities. 
+ - **Security Posture**: An organization’s ability to manage its defense of critical assets and data and react to change.
+ - **Information Security (InfoSec)**: A set of processes established to secure information.
+ - **Personally Identifiable Information (PII)**:
+ - **European Union's General Data Protection Regulation (GDPR)**:
+ - **Asset Security**: Involves managing the cybersecurity processes of organizational assets, including the storage, maintenance, retention, and destruction of physical and virtual data.
+ - **Shared Responsibility**: All individuals involved take an active role in lowering risk during the design of a security system.
+ - **Least Privilege**: The concept of granting only the minimal access and authorization required to complete a task.
+ - **Insider Threats**: Staff members or vendors abuse their authorized access to obtain data that may harm an organization.
+ - **Advanced Persistent Threats (APTs)**: A threat actor maintains unauthorized access to a system for an extended period of time.
+ - **Security Framework**: Guideline used for building plans to help mitigate risk and threats to data and privacy, e.g., HIPAA, which requires that medical professionals keep patient information safe.
+ - **Security Control**: Safeguard designed to reduce specific security risks, e.g., HIPAA is requiring that patients use multi-factor authentication (MFA) to access their medical records. Controls are used alongside frameworks to reduce the possibility and impact of a security threat, risk, or vulnerability. Controls can be *physical*, *technical*, and *administrative* and are typically used to prevent, detect, or correct security issues.
+ - **Cyber Threat Framework (CTF)**: A common language for describing and communicating information about cyber threat activity.
+ - **International Organization for Standardization/International Electrotechnical Commission (ISO/IEC) 27001**: The ISO 27000 family of standards enables organizations of all sectors and sizes to manage the security of assets, such as financial information, intellectual property, employee data, and information entrusted to third parties.
+ - **Incident response**: An organization’s quick attempt to identify an attack, contain the damage, and correct the effects of a security breach.
+ - **Log**: A record of events that occur within an organization’s systems.
+ - **Metrics**: Key technical attributes such as response time, availability, and failure rate, which are used to assess the performance of a software application.
+ - **Operating system (OS)**: The interface between computer hardware and the user.
+ - **Playbook**: A manual that provides details about any operational action.
+ - **Security information and event management (SIEM)**: An application that collects and analyzes log data to monitor critical activities in an organization.
+ - **Security orchestration, automation, and response (SOAR)**: A collection of applications, tools, and workflows that use automation to respond to security events.
